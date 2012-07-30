@@ -1,7 +1,7 @@
 <div id="sidebar" class="sidebar pjax_links">
 	<div class="cog">+</div>
 
-	<a href="http://www.google.com" class="logo"><span>Adminica</span></a>
+	<a href="index.php" class="logo"><span>Adminica</span></a>
 
 	<div class="user_box dark_box clearfix">
 		<img src="images/interface/profile.jpg" width="55" alt="Profile Pic" />

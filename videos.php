@@ -12,8 +12,6 @@ function endsWith($haystack, $needle){
     }
     return (substr($haystack, -$length) === $needle);
 }
-
-$current_video = htmlspecialchars($_GET["video"]);
 ?>
 
 <?php include 'includes/core/document_head.php'?>
@@ -25,15 +23,7 @@ $current_video = htmlspecialchars($_GET["video"]);
 
 			<div id="main_container" class="main_container container_16 clearfix">
 				<?php include 'includes/components/navigation.php'?>
-				<div class="box grid_16">
-					<h2 class="box_head">
-					<?php print $current_video ?>
-					</h2>
-					<video width="100%"s controls="controls">
-					  <source src="videos/<? print $current_video ?>" type="video/mp4" />
-					  Your browser does not support the video tag.
-					</video>
-				</div>
+
 				<div class="box grid_8">
 					<h2 class="box_head">Videos</h2>
 					<div class="controls">

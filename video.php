@@ -1,19 +1,22 @@
 <?php
-$videos = scandir("videos");
-function startsWith($haystack, $needle){
-    $length = strlen($needle);
-    return (substr($haystack, 0, $length) === $needle);
-}
 
-function endsWith($haystack, $needle){
-    $length = strlen($needle);
-    if ($length == 0) {
-        return true;
-    }
-    return (substr($haystack, -$length) === $needle);
-}
+require_once('logic/util.php');
 
 $current_video = htmlspecialchars($_GET["video"]);
+$current_chapter = htmlspecialchars($_GET["chapter"]);
+
+if(empty($current_chapter)){
+	$current_chapter = "Operational Procedures";
+}
+
+
+$videos = scandir("videos/a_plus/$current_chapter");
+$chapters = scandir("videos/a_plus/");
+
+if(empty($current_video)){
+	$current_video = $videos[2];
+}
+
 ?>
 
 <?php include 'includes/core/document_head.php'?>
@@ -29,13 +32,13 @@ $current_video = htmlspecialchars($_GET["video"]);
 					<h2 class="box_head">
 					<?php print $current_video ?>
 					</h2>
-					<video width="100%"s controls="controls">
-					  <source src="videos/<? print $current_video ?>" type="video/mp4" />
+					<video width="100%"s controls="controls" autoplay="autoplay">
+					  <source src="videos/a_plus/<? print $current_chapter ?>/<? print $current_video ?>" type="video/mp4" />
 					  Your browser does not support the video tag.
 					</video>
 				</div>
 				<div class="box grid_8">
-					<h2 class="box_head">Videos</h2>
+					<h2 class="box_head">Chapters</h2>
 					<div class="controls">
 						<a href="#" class="grabber"></a>
 						<a href="#" class="toggle"></a>
@@ -43,14 +46,36 @@ $current_video = htmlspecialchars($_GET["video"]);
 					<div class="toggle_container">
 						<div class="block">
 							<div class="section">
-								<h2>License to Tech</h2>
+								<ol>
+								<?php 
+								foreach($chapters as &$chapter) { 
+									if(startsWith($chapter, ".")) continue;	
+									?>
+									<li>
+										<a href="video.php?chapter=<? print $chapter ?>"> <? print $chapter ?> </a>					
+									</li>
+								<?php } ?>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="box grid_8">
+					<h2 class="box_head">Episodes</h2>
+					<div class="controls">
+						<a href="#" class="grabber"></a>
+						<a href="#" class="toggle"></a>
+					</div>
+					<div class="toggle_container">
+						<div class="block">
+							<div class="section">
 								<ol>
 								<?php 
 								foreach($videos as &$video) { 
-									if(!endsWith($video, ".mp4")) continue;	
+									if(startsWith($video, ".")) continue;	
 									?>
 									<li>
-										<a href="video.php?video=<? print $video ?>"> <? print $video ?> </a>					
+										<a href="video.php?chapter=<? print $current_chapter ?>&video=<? print $video ?>"> <? print $video ?> </a>					
 									</li>
 								<?php } ?>
 								</ol>

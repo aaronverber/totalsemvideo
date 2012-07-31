@@ -1,3 +1,20 @@
+<?php
+	require_once 'logic/db.php';
+	$login_ok = true;
+	if($_SERVER['REQUEST_METHOD'] == 'POST'){
+		$username = $_POST['username_field'];
+		$password = $_POST['password_field'];	
+		if(db_check_user($username, $password)){
+			session_start();
+			$_SESSION['user'] = $username;
+			header('Location: video.php');
+		} else {
+			$login_ok = false;
+		}
+	} 
+?>
+
+
 <?php include 'includes/core/document_head.php'?>
 	<div id="pjax">
 		<div id="wrapper">
@@ -7,12 +24,19 @@
 						<div class="box">
 							<div class="block">
 								<div class="section">
+									<? if($login_ok) { ?>
 									<div class="alert dismissible alert_light">
 										<img width="24" height="24" src="images/icons/small/grey/locked.png">
 										<strong>Welcome to Adminica.</strong> Please enter your details to login.
 									</div>
+									<? } else { ?>
+									<div class="alert dismissble alert_red">
+										<strong>Incorrect Username or Password</strong>
+									</div>
+									<? } ?>
+									
 								</div>
-								<form action="index.php" class="validate_form">
+								<form action="login_button.php" class="validate_form" method="POST">
 								<fieldset class="label_side top">
 									<label for="username_field">Username<span>or email address</span></label>
 									<div>

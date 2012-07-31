@@ -1,5 +1,5 @@
 <?php
-
+require_once('logic/login.php');
 require_once('logic/util.php');
 
 $current_video = htmlspecialchars($_GET["video"]);

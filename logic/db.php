@@ -1,11 +1,11 @@
 <?php
 
-require_once 'logic/local.php';
+require 'local.php';
 
 function db_connect(){
+	global $db_host, $db_user, $db_password, $db_name;
 	mysql_connect($db_host, $db_user, $db_password) or die(mysql_error());
 	mysql_select_db($db_name) or die(mysql_error());
-
 }
 
 function db_check_user($username, $password){

@@ -74,11 +74,11 @@
 		theme_switcher.php 	: colour theme - black/grey by default.						(eg. styles/themes/theme_switcher.php?default=theme_red.css)
 		bg_switcher.php 	: background image - dark boxes by default.					(eg. styles/themes/bg_switcher.php?default=bg_honeycomb.css)	-->
 
-		<link rel="stylesheet" href="styles/themes/layout_switcher.php?default=layout_fixed.css" >
-		<link rel="stylesheet" href="styles/themes/nav_switcher.php?default=nav_top.css" >
+		<link rel="stylesheet" href="styles/themes/layout_switcher.php?default=layout_fluid.css" >
+		<link rel="stylesheet" href="styles/themes/nav_switcher.php?default=nav_side.css" >
 		<link rel="stylesheet" href="styles/themes/skin_switcher.php?default=switcher.css" >
-		<link rel="stylesheet" href="styles/themes/theme_switcher.php?default=theme_blue.css" >
-		<link rel="stylesheet" href="styles/themes/bg_switcher.php?default=bg_honeycomb.css" >
+		<link rel="stylesheet" href="styles/themes/theme_switcher.php?default=theme_red.css" >
+		<link rel="stylesheet" href="styles/themes/bg_switcher.php?default=bg_wood.css" >
 
 		<link rel="stylesheet" href="styles/adminica/colours.css"> <!-- this file overrides the theme's default colour scheme, allowing more colour combinations (see layout example page)
 

@@ -2,6 +2,6 @@
 session_start();
 
 if(!isset($_SESSION['user'])){
-	header('Location: login_button.php');
+	header('Location: login.php');
 	exit;
 }

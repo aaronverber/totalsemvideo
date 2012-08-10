@@ -23,9 +23,7 @@
 	<!-- Styles -->
 
 		<link rel="stylesheet" href="styles/adminica/reset.css">
-<!--
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
--->
 
 
 		<!-- NOTE: The following css files have been combined and minified into plugins.css
@@ -65,9 +63,22 @@
 		<link rel="stylesheet" href="styles/adminica/all.css">
 
 
-		<link rel="stylesheet" href="styles/themes/switcher.css" >
-		<link rel="stylesheet" href="styles/themes/theme_red.css" >
-		<link rel="stylesheet" href="styles/themes/bg_wood.css" >
+		<!-- Style Switcher
+
+		The following stylesheet links are used by the styleswitcher to allow for dynamically changing the Adminica layout, nav, skin, theme and background.
+		Styleswitcher documentation: http://style-switcher.webfactoryltd.com/documentation/
+
+		layout_switcher.php	: layout - fluid by default.								(eg. styles/themes/layout_switcher.php?default=layout_fixed.css)
+		nav_switcher.php	: header and sidebar nav  positioning - sidebar by default.	(eg. styles/themes/nav_switcher.php?default=header_top.css)
+		skin_switcher.php 	: Adminica skin - dark by default.							(eg. styles/themes/skin_switcher.php?default=theme_light.css)
+		theme_switcher.php 	: colour theme - black/grey by default.						(eg. styles/themes/theme_switcher.php?default=theme_red.css)
+		bg_switcher.php 	: background image - dark boxes by default.					(eg. styles/themes/bg_switcher.php?default=bg_honeycomb.css)	-->
+
+		<link rel="stylesheet" href="styles/themes/layout_switcher.php?default=layout_fluid.css" >
+		<link rel="stylesheet" href="styles/themes/nav_switcher.php?default=nav_side.css" >
+		<link rel="stylesheet" href="styles/themes/skin_switcher.php?default=switcher.css" >
+		<link rel="stylesheet" href="styles/themes/theme_switcher.php?default=theme_red.css" >
+		<link rel="stylesheet" href="styles/themes/bg_switcher.php?default=bg_wood.css" >
 
 		<link rel="stylesheet" href="styles/adminica/colours.css"> <!-- this file overrides the theme's default colour scheme, allowing more colour combinations (see layout example page)
 

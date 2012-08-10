@@ -1,14 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!doctype html public "✰">
+<!--[if lt IE 7]> <html lang="en-us" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js ie8"> <![endif]-->
+<!--[if IE 9]>    <html lang="en-us" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
 <head>
-  <title>Totalsemvideo</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<meta charset="utf-8">
+		<title>Total Seminars Videos</title>
+  	<meta name="description" content="http://themeforest.net/item/adminica-the-professional-admin-template/160638"/>
+  	<meta name="author" content="Oisin Lavery - Tricycle Labs"/>
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1;"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link href="images/interface/iOS_icon.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" href="styles/adminica/reset.css"/>
+		<link rel="stylesheet" href="styles/plugins/all/plugins.css"/>
+		<link rel="stylesheet" href="styles/adminica/all.css"/>
+		<link rel="stylesheet" href="styles/themes/switcher.css" />
+		<link rel="stylesheet" href="styles/themes/theme_red.css" />
+		<link rel="stylesheet" href="styles/themes/bg_wood.css" />
+		<link rel="stylesheet" href="styles/adminica/colours.css"/> 
+		<script src="scripts/plugins-min.js"></script>
+		<script src="scripts/adminica/adminica_all-min.js"></script>
+	</head>
+	<body>
+		<%= yield %>
 
-<%= yield %>
-
-</body>
+		<%= render "dialogs/dialog_register" %>
+    <%= render "dialogs/dialog_delete" %>
+		<%= render "dialogs/dialog_logout" %>
+		<div id="loading_overlay">
+			<div class="loading_message round_bottom">
+				<img src="images/interface/loading.gif" alt="loading" />
+			</div>
+		</div>
+	</body>
 </html>

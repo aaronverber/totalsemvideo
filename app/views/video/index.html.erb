@@ -1,58 +1,49 @@
-<%= render "core/document_head" %>
-	<div id="pjax">
-		<div id="wrapper" data-adminica-nav-top="1" data-adminica-side-top="1">
-			<%= render "components/topbar" %>
-			<%= render "components/sidebar" %>
-			<%= render "components/stackbar" %>
-			</div><!-- Closing Div for Stack Nav, you can boxes under the stack before this -->
-
-			<div id="main_container" class="main_container container_16 clearfix">
-				<?php include 'includes/components/navigation.php'?>
-				<div class="box grid_16">
-					<h2 class="box_head">
-						<?php print $current_video ?>
-					</h2>
-					<video width="100%"s controls="controls" autoplay="autoplay">
-					  Your browser does not support the video tag.
-					</video>
-				</div>
-				<div class="box grid_8">
-					<h2 class="box_head">Chapters</h2>
-					<div class="controls">
-						<a href="#" class="grabber"></a>
-						<a href="#" class="toggle"></a>
-					</div>
-					<div class="toggle_container">
-						<div class="block">
-							<div class="section">
-								<ol>
-								</ol>
-							</div>
-						</div>
+<div id="pjax">
+	<div id="wrapper" data-adminica-nav-top="1" data-adminica-side-top="1">
+		<%= render "components/topbar" %>
+		<%= render "components/sidebar" %>
+		<%= render "components/stackbar" %>
+	</div>
+	
+	<div id="main_container" class="main_container container_16 clearfix">
+		<%= render "components/navigation" %>
+		<div class="box grid_16">
+			<h2 class="box_head">
+				<%= @current_video or "No Video" -%>
+			</h2>
+			<video width="100%"s controls="controls" autoplay="autoplay">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		<div class="box grid_8">
+			<h2 class="box_head">Chapters</h2>
+			<div class="controls">
+				<a href="#" class="grabber"></a>
+				<a href="#" class="toggle"></a>
+			</div>
+			<div class="toggle_container">
+				<div class="block">
+					<div class="section">
+						<ol>
+						</ol>
 					</div>
 				</div>
-				<div class="box grid_8">
-					<h2 class="box_head">Episodes</h2>
-					<div class="controls">
-						<a href="#" class="grabber"></a>
-						<a href="#" class="toggle"></a>
-					</div>
-					<div class="toggle_container">
-						<div class="block">
-							<div class="section">
-								<ol>
-								</ol>
-							</div>
-						</div>
+			</div>
+		</div>
+		<div class="box grid_8">
+			<h2 class="box_head">Episodes</h2>
+			<div class="controls">
+				<a href="#" class="grabber"></a>
+				<a href="#" class="toggle"></a>
+			</div>
+			<div class="toggle_container">
+				<div class="block">
+					<div class="section">
+						<ol>
+						</ol>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-				
-<script type="text/javascript">
-$(document).ready(function() {
-	//$("#dialog_welcome").dialog("open");
-});
-</script>
-<%= render "core/document_foot" %>
+</div>

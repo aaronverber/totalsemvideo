@@ -7,41 +7,40 @@
 						<div class="block">
 							<div class="section">
 								<% if flash[:alert] -%>
-								<div class="alert dismissble alert_red">
+								<div class="alert dismissible alert_red">
 									<strong>Incorrect Username or Password</strong>
 								</div>
 								<% else -%>									
 								<div class="alert dismissible alert_light">
-									<img width="24" height="24" src="/images/icons/small/grey/locked.png">
-										<strong>Welcome to Total Seminars Video.</strong> Please enter your details to login.
-									</div>
+									<img width="24" height="24" src="/images/icons/small/grey/locked.png"/>
+									<strong>Welcome to Total Seminars Video.</strong> Please enter your details to login.
 								</div>
 								<% end -%>
-								<%= form_for @user_session do |f| %>
-									<fieldset class="label_side top">
-										<%= f.label :email %>
-										<div>
-											<%= f.text_field :email %>
-										</div>
-									</fieldset>
-									<fieldset class="label_side bottom">
-										<%= f.label :password %>
-										<div>
-											<%= f.password_field :password %>
-										</div>
-									</fieldset>
-									<div class="button_bar clearfix">
-										<button class="wide" type="submit">
-											<img src="/images/icons/small/white/key_2.png"/>
-											<span>Login</span>
-										</button>
-									</div>
-								<% end %>
 							</div>
+							<%= form_for @user_session do |f| %>
+							<fieldset class="label_side top">
+								<%= f.label :email %>
+								<div>
+									<%= f.text_field :email %>
+								</div>
+							</fieldset>
+							<fieldset class="label_side bottom">
+								<%= f.label :password, :class => "" %>
+								<div>
+									<%= f.password_field :password %>
+								</div>
+							</fieldset>
+							<div class="button_bar clearfix">
+								<button class="wide" type="submit">
+									<img src="/images/icons/small/white/key_2.png"/>
+									<span>Login</span>
+								</button>
+							</div>
+							<% end %>
 						</div>
 					</div>
-					<a href="/" id="login_logo"><span>Total Seminars Video</span></a>
 				</div>
+				<a href="/" id="login_logo"><span>Total Seminars Video</span></a>
 			</div>
 		</div>
 	</div>

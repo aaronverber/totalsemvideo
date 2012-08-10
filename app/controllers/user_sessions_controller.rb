@@ -10,15 +10,16 @@ class UserSessionsController < ApplicationController
     @user_session = UserSession.new(params[:user_session])
     if @user_session.save
       flash[:notice] = "Login succesful!"
-      redirect "/"
+      redirect_back_or_default new_user_session_url
     else
-      render :action => :new
+      flash[:alert] = "Could not login!"
+      redirect_to("/user_sessions/new")
     end
   end
 
   def destroy
     current_user_session.destroy
     flash[:notice] = "Logout successful!"
-    redirect "/"
+    redirect_back_or_default new_user_session_url
   end
 end

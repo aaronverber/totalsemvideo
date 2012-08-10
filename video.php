@@ -17,6 +17,11 @@ if(empty($current_video)){
 	$current_video = $videos[2];
 }
 
+function video_source(){
+	global $current_video, $current_chapter;
+	print "<source src=\"videos/a_plus/$current_chapter/$current_video\" type=\"video/mp4\" />";
+}
+
 ?>
 
 <?php include 'includes/core/document_head.php'?>
@@ -30,10 +35,10 @@ if(empty($current_video)){
 				<?php include 'includes/components/navigation.php'?>
 				<div class="box grid_16">
 					<h2 class="box_head">
-					<?php print $current_video ?>
+						<?php print $current_video ?>
 					</h2>
 					<video width="100%"s controls="controls" autoplay="autoplay">
-					  <source src="videos/a_plus/<? print $current_chapter ?>/<? print $current_video ?>" type="video/mp4" />
+						<? video_source() ?>
 					  Your browser does not support the video tag.
 					</video>
 				</div>

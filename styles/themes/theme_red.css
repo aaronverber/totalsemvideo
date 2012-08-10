@@ -1,6 +1,6 @@
 /* Colours:
-	Top grad (light): #9e253b
-	Bottom grad (darker): #7C1F30
+	Top grad (light): #9e253b -> #F60018
+	Bottom grad (darker): #7C1F30 -> A0000F
 	a link: #BF2453
 	a hover: #f74d6c
 	tab bg (dark): #5f0314
@@ -22,24 +22,24 @@ button,
 .ui-progressbar .ui-progressbar-value,
 .stackbar.stack_view > ul > li > a > span,
 div.stackbar.stack_view > ul > li > a > span::before  {
-    background-color: #9e253b;
-	background-image:         linear-gradient(top, #9e253b, #7C1F30);
+    background-color: #F60018;
+	background-image:         linear-gradient(top, #F60018, #A0000F);
 
-    border-color: #7C1F30;
+    border-color: #A0000F;
 }
  ul.drawer{
-    background-color: #9e253b;
-    border-color:#7C1F30;
+    background-color: #F60018;
+    border-color:#A0000F;
  }
 
 
 grad_skin_reverse,
 button:hover
 {
-    background-color: #9e253b;
-	background-image:         linear-gradient(top, #7C1F30, #9e253b);
+    background-color: #F60018;
+	background-image:         linear-gradient(top, #A0000F, #F60018);
 
-    border-color: #7C1F30;
+    border-color: #A0000F;
     }
 
 
@@ -59,8 +59,8 @@ div.main_container p a:hover,#sidebar h3 a:hover, #topbar h3 a:hover, .text a:ho
 
 
 .dropdown_menu ul li a:hover, .dropdown_menu ul li ul.dropdown li a.has_slide:hover,.dataTables_wrapper .dataTables_paginate span span.ui-state-disabled {
-	color: #7C1F30;
+	color: #A0000F;
 }
 .dropdown_menu ul li ul.dropdown li.current{
-	border-color: #7C1F30
+	border-color: #A0000F
 }

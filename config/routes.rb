@@ -57,4 +57,5 @@ Totalsemvideo::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
   root :to => "video#index"
   resources :user_sessions
+  resources :users
 end

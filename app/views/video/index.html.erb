@@ -1,3 +1,8 @@
+<% content_for :head do %>
+<%= javascript_include_tag params[:controller] %> 
+<%= stylesheet_link_tag params[:controller] %>
+<% end %>
+
 <div id="pjax">
   <div id="wrapper" data-adminica-nav-top="1" data-adminica-side-top="1">
     <%= render "components/topbar" %>
@@ -26,7 +31,7 @@
 	  <div class="section">
 	    <ol>
 	      <% for chapter in @chapters %>
-	      <li><%= chapter.name -%></li>
+	      <li><a href="#" class="chapter_link"><%= chapter.name -%></a></li>
               <% end %>
 	    </ol>
 	  </div>
@@ -43,7 +48,7 @@
 	<div class="block">
 	  <div class="section">
 	    <% for chapter in @chapters %>
-	    <ol>
+	    <ol class="episode_list" data-chapter="<%= chapter.name -%>">
 	      <% for episode in chapter.episodes %>
 	      <li><%= episode.name -%></li>
 	      <% end %>

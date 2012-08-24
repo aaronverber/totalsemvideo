@@ -1,0 +1,217 @@
+1,The Path of the PC Tech,1,Introduction/A+/Studying for the A+
+2,Operational Procedures,2,Professionalism
+2,Operational Procedures,3,Communication
+2,Operational Procedures,4,"Protecting Against ESD, EMI, and RFI"
+2,Operational Procedures,5,Physical Safety
+2,Operational Procedures,6,Equipment Safety
+3,The Visible PC,7,How Computers Work
+3,The Visible PC,8,Computer Components
+3,The Visible PC,9,External Connections
+3,The Visible PC,10,Inside the PC
+4,Visible Windows,11,A Short History of Windows
+4,Visible Windows,12,Windows XP Basics
+4,Visible Windows,13,Windows Vista Basics
+4,Visible Windows,14,Windows 7 Basics
+4,Visible Windows,15,Windows XP Folders
+4,Visible Windows,16,Windows Vista/7 Folders
+4,Visible Windows,17,Fun with Files and Folders
+4,Visible Windows,18,Windows 7 Libraries
+4,Visible Windows,19,Control Panel
+4,Visible Windows,20,Device Manager
+4,Visible Windows,21,Administrative and System Tools
+5,Visible Networks,22,What is a Network?
+5,Visible Networks,23,Network Topologies
+5,Visible Networks,24,Frames and MAC Addresses
+5,Visible Networks,25,TCP/IP
+5,Visible Networks,26,TCP/IP Settings in Windows
+5,Visible Networks,27,"Workgroups, Homegroups, and Domains"
+6,Microprocessors,28,Intro to CPUs
+6,Microprocessors,29,Cores and Speeds
+6,Microprocessors,30,Caches
+6,Microprocessors,31,32 vs. 64-bit processing
+6,Microprocessors,32,Processor Extensions
+6,Microprocessors,33,Sockets
+6,Microprocessors,34,Installing a CPU
+6,Microprocessors,35,Cooling a CPU
+6,Microprocessors,36,Liquid Cooling
+7,RAM,37,RAM and RAM Speeds
+7,RAM,38,RAM Capacity
+7,RAM,39,Other Types of RAM
+7,RAM,40,Installing RAM
+7,RAM,41,Troubleshooting RAM
+7,RAM,42,Virtual Memory
+8,BIOS,43,What is the BIOS?
+8,BIOS,44,POST
+8,BIOS,45,System Setup
+8,BIOS,46,BIOS Troubleshooting
+9,Motherboards,47,Form Factors
+9,Motherboards,48,ATX and ITX
+9,Motherboards,49,Chipsets
+9,Motherboards,50,The Expansion Bus
+9,Motherboards,51,Installing a Motherboard
+9,Motherboards,52,Weird Motherboard Stuff
+10,Power Supplies,53,Electricity Basics
+10,Power Supplies,54,The Power Supply
+10,Power Supplies,55,Niche Power Supplies and Features
+10,Power Supplies,56,Choosing a Power Supply
+10,Power Supplies,57,Power Protection
+10,Power Supplies,58,Troubleshooting Power Supplies
+11,Hard Drive Technologies,59,Introduction to Hard Drives
+11,Hard Drive Technologies,60,Storing Data on a Hard Drive
+11,Hard Drive Technologies,61,ATA
+11,Hard Drive Technologies,62,Installing PATA Drives
+11,Hard Drive Technologies,63,Installing SATA Drives
+11,Hard Drive Technologies,64,SCSI
+12,Implementing Hard Drives,65,What is partitioning?
+12,Implementing Hard Drives,66,Basic Disk Partitioning
+12,Implementing Hard Drives,67,Dynamic Disk Partitioning
+12,Implementing Hard Drives,68,GPT and UEFI
+12,Implementing Hard Drives,69,Partitioning with GPT
+12,Implementing Hard Drives,70,Formatting and Mounting Drives
+12,Implementing Hard Drives,71,RAID
+12,Implementing Hard Drives,72,Implementing RAID
+12,Implementing Hard Drives,73,Setting the Boot Order
+12,Implementing Hard Drives,74,Maintaining Hard Drives
+12,Implementing Hard Drives,75,Troubleshooting Hard Drives
+13,Removable Media,76,Floppy Disks
+13,Removable Media,77,CD Media
+13,Removable Media,78,DVD Media
+13,Removable Media,79,Blu-ray Media
+13,Removable Media,80,Installing an Optical Drive
+13,Removable Media,81,Using an Optical Drive
+13,Removable Media,82,Flash Media
+14,Installing Windows,83,Upgrade Paths
+14,Installing Windows,84,Preinstallation Tasks for Windows XP
+14,Installing Windows,85,Preinstallation Tasks for Windows Vista
+14,Installing Windows,86,Preinstallation Tasks for Windows 7
+14,Installing Windows,87,Installation Options
+14,Installing Windows,88,Installing Windows XP
+14,Installing Windows,89,Installing Windows 7
+14,Installing Windows,90,Post-installation Tasks
+14,Installing Windows,91,Automated Installs
+15,Windows Under the Hood,92,The Registry
+15,Windows Under the Hood,93,Boot Process
+15,Windows Under the Hood,94,Processes
+15,Windows Under the Hood,95,Dealing w Processes
+15,Windows Under the Hood,96,Services
+15,Windows Under the Hood,97,Performance Tools
+16,"Users, Groups, and NTFS",98,Intro to Users and Groups
+16,"Users, Groups, and NTFS",99,Creating Users in XP
+16,"Users, Groups, and NTFS",100,Creating Users in Vista 7
+16,"Users, Groups, and NTFS",101,UAC
+16,"Users, Groups, and NTFS",102,NTFS Permissions
+16,"Users, Groups, and NTFS",103,EFS and Bitlocker
+17,Maintaining and Optimizing Windows,104,Updates and Patches
+17,Maintaining and Optimizing Windows,105,Cleaning HD Space
+17,Maintaining and Optimizing Windows,106,Task Scheduler
+17,Maintaining and Optimizing Windows,107,Startup Apps
+17,Maintaining and Optimizing Windows,108,System Info Tool
+17,Maintaining and Optimizing Windows,109,Install/Uninstall Programs
+17,Maintaining and Optimizing Windows,110,Hardware Profiles
+17,Maintaining and Optimizing Windows,111,XP Backup
+17,Maintaining and Optimizing Windows,112,Vista 7 Backup
+17,Maintaining and Optimizing Windows,113,System Restore
+18,Working with the Command-Line Interface,114,Command Prompt Basics
+18,Working with the Command-Line Interface,115,Processes in CP
+18,Working with the Command-Line Interface,116,Partitioning et al in CP
+19,Troubleshooting Windows,117,The Recovery Console
+19,Troubleshooting Windows,118,Recovery Environment
+19,Troubleshooting Windows,119,BSoD
+19,Troubleshooting Windows,120,Protecting the Registry
+19,Troubleshooting Windows,121,Advanced Startup Options
+19,Troubleshooting Windows,122,Event Viewer
+19,Troubleshooting Windows,123,DLLs
+19,Troubleshooting Windows,124,Error Reporting
+19,Troubleshooting Windows,125,Shadow Copy
+19,Troubleshooting Windows,126,Compatability
+20,Input Devices,127,USB
+20,Input Devices,128,Config USB
+20,Input Devices,129,Firewire et al
+20,Input Devices,130,Keyboards and Mice
+20,Input Devices,131,Scanners
+20,Input Devices,132,Other Input Devices
+20,Input Devices,133,KVM
+20,Input Devices,134,Cameras and Camcorders
+20,Input Devices,135,Webcams
+21,Video,136,How Monitors Work
+21,Video,137,VGA and DVI
+21,Video,138,Plasma DLP
+21,Video,139,Other Vid Connections
+21,Video,140,Configuring Video
+21,Video,141,Projectors
+21,Video,142,Multiple Monitors
+21,Video,143,Graphics Cards
+21,Video,144,Troubleshooting Video
+22,Local Area Networking,145,Structured Cabling
+22,Local Area Networking,146,Patch Cables
+22,Local Area Networking,147,Coax and Fiber
+22,Local Area Networking,148,Networking Tools
+22,Local Area Networking,149,Routers
+22,Local Area Networking,150,Router Config
+22,Local Area Networking,151,Special IP Addresses
+22,Local Area Networking,152,Private IP Addresses and NAT
+22,Local Area Networking,153,IPv6
+22,Local Area Networking,154,Sharing Files
+22,Local Area Networking,155,Physical Network Issues
+22,Local Area Networking,156,Troubleshooting Networks
+23,Wireless Networking,157,Wireless Hardware
+23,Wireless Networking,158,WiFi Standards
+23,Wireless Networking,159,Setting up a Wireless AP
+23,Wireless Networking,160,Wireless Encryption
+23,Wireless Networking,161,Connecting to a WiFi Network
+23,Wireless Networking,162,Bluetooth
+23,Wireless Networking,163,Troubleshooting Wireless
+24,The Internet,164,Internet Tiers
+24,The Internet,165,Dial-up Connections
+24,The Internet,166,Broadband
+24,The Internet,167,Wireless Internet
+24,The Internet,168,VoIP
+24,The Internet,169,Internet Connection Sharing
+24,The Internet,170,Internet Applications
+24,The Internet,171,Web Browsers
+24,The Internet,172,E-mail
+24,The Internet,173,FTP
+24,The Internet,174,Remote Desktop et al
+24,The Internet,175,Obscure TCPIP Protocls
+24,The Internet,176,VPN
+24,The Internet,177,Troubleshooting Internet Connections
+25,Multimedia,178,WAV and MIDI
+25,Multimedia,179,Sound and Speakers
+25,Multimedia,180,TV Tuners and Capture
+26,Portable Computing,181,Types of Laptops
+26,Portable Computing,182,Touring a Laptop
+26,Portable Computing,183,Laptop Expandability
+26,Portable Computing,184,Proper Laptop Disassembly
+26,Portable Computing,185,Powering Laptops
+26,Portable Computing,186,Troubleshooting Laptops
+27,Mobile Devices,187,Smartphones and Tablets
+27,Mobile Devices,188,iOS vs. Android
+27,Mobile Devices,189,Syncing Files with Mobile Devices
+27,Mobile Devices,190,Connecting a Mobile Device to a Network?
+27,Mobile Devices,191,Connecting a Mobile Device to E-mail
+27,Mobile Devices,192,Securing Android Devices
+27,Mobile Devices,193,Securing iOS Devices
+28,Printers,194,Printer Technologies
+28,Printers,195,Printer Connections
+28,Printers,196,Installing Local Printers
+28,Printers,197,Installing Network Printers
+28,Printers,198,Maintaining Impact Printers
+28,Printers,199,Maintaining Inkjet Printers
+28,Printers,200,Maintaining Laser Printers
+28,Printers,201,Troubleshooting Print Jobs
+29,Security,202,Physical Security
+29,Security,203,Passwords and Authentication
+29,Security,204,Protecting Against Snoops
+29,Security,205,Security with Users and Groups?
+29,Security,206,Malware
+29,Security,207,Anti-Malware Software
+29,Security,208,Anti-Malware Process
+29,Security,209,Hardware Firewalls
+29,Security,210,Software Firewalls
+29,Security,211,Data Destruction
+29,Security,212,Evidence Handling
+29,Security,213,Environmental Security
+30,Virtualization,214,Virtualization
+30,Virtualization,215,Virtual Machines
+31,The Right PC for You,216,Build your own PC
+32,The Complete PC Tech,217,Troubleshooting PC

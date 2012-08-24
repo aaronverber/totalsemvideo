@@ -25,6 +25,9 @@
 	<div class="block">
 	  <div class="section">
 	    <ol>
+	      <% for chapter in @chapters %>
+	      <li><%= chapter.name -%></li>
+              <% end %>
 	    </ol>
 	  </div>
 	</div>
@@ -39,8 +42,13 @@
       <div class="toggle_container">
 	<div class="block">
 	  <div class="section">
+	    <% for chapter in @chapters %>
 	    <ol>
+	      <% for episode in chapter.episodes %>
+	      <li><%= episode.name -%></li>
+	      <% end %>
 	    </ol>
+	    <% end %>
 	  </div>
 	</div>
       </div>

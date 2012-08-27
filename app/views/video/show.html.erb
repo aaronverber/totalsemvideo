@@ -21,18 +21,15 @@
       <% else %>
       <video controls="controls" width="720" height="360" autoplay="autoplay">
 	<source src="<%= @episode.video_url -%>" type="video/mp4" />
-	<object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="720" height="360">
-	  <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+	<object type="application/x-shockwave-flash" data="http://player.longtailvideo.com/player.swf" width="720" height="360">
+	  <param name="movie" value="http://player.longtailvideo.com/player.swf" />
 	  <param name="allowFullScreen" value="true" />
 	  <param name="wmode" value="transparent" />
-	  <param name="flashVars" value="config={'playlist':[{'url':'<%= flashify(@episode.video_url) -%>','autoPlay':true}]}" />
+	  <param name="flashVars" value="controlbar=over&amp;image=http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg&amp;file=<%= flashify(@episode.video_url) -%>" />
 	  <span title="No video playback capabilities, please download the video below">External Connections</span>
 	</object>
       </video>
       <% end %>
-      <!-- <p> -->
-      <!-- 	<strong>Download video:</strong> <a href="https://s3.amazonaws.com/totalsem-videos/009+External+Connections.mp4">MP4 format</a> -->
-      <!-- </p>     -->
     </div>
     <div class="box grid_8">
       <h2 class="box_head">Chapters</h2>

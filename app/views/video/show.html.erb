@@ -60,7 +60,7 @@
 	    <% for chapter in @chapters %>
 	    <ol class="episode_list" data-chapter="<%= chapter.name -%>">
 	      <% for episode in chapter.episodes %>
-	      <li><%= episode.name -%></li>
+	      <li><a href="/video/<%= episode.id -%>" class="episode_link"><%= episode.name -%></a></li>
 	      <% end %>
 	    </ol>
 	    <% end %>

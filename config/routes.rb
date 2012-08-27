@@ -55,7 +55,8 @@ Totalsemvideo::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
-  root :to => "video#index"
+  root :to => redirect("/video")
+  resources :video
   resources :user_sessions
   resources :users
 end

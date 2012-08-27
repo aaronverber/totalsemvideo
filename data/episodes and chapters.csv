@@ -1,7 +1,7 @@
 1,The Path of the PC Tech,1,Introduction/A+/Studying for the A+
 2,Operational Procedures,2,Professionalism
 2,Operational Procedures,3,Communication
-2,Operational Procedures,4,"Protecting Against ESD, EMI, and RFI"
+2,Operational Procedures,4,Protecting Against ESD! EMI! and RFI!
 2,Operational Procedures,5,Physical Safety
 2,Operational Procedures,6,Equipment Safety
 3,The Visible PC,7,How Computers Work
@@ -24,7 +24,7 @@
 5,Visible Networks,24,Frames and MAC Addresses
 5,Visible Networks,25,TCP/IP
 5,Visible Networks,26,TCP/IP Settings in Windows
-5,Visible Networks,27,"Workgroups, Homegroups, and Domains"
+5,Visible Networks,27,Workgroups! Homegroups! and Domains!
 6,Microprocessors,28,Intro to CPUs
 6,Microprocessors,29,Cores and Speeds
 6,Microprocessors,30,Caches
@@ -95,12 +95,12 @@
 15,Windows Under the Hood,95,Dealing w Processes
 15,Windows Under the Hood,96,Services
 15,Windows Under the Hood,97,Performance Tools
-16,"Users, Groups, and NTFS",98,Intro to Users and Groups
-16,"Users, Groups, and NTFS",99,Creating Users in XP
-16,"Users, Groups, and NTFS",100,Creating Users in Vista 7
-16,"Users, Groups, and NTFS",101,UAC
-16,"Users, Groups, and NTFS",102,NTFS Permissions
-16,"Users, Groups, and NTFS",103,EFS and Bitlocker
+16,Users! Groups! and NTFS,98,Intro to Users and Groups
+16,Users! Groups! and NTFS,99,Creating Users in XP
+16,Users! Groups! and NTFS,100,Creating Users in Vista 7
+16,Users! Groups! and NTFS,101,UAC
+16,Users! Groups! and NTFS,102,NTFS Permissions
+16,Users! Groups! and NTFS,103,EFS and Bitlocker
 17,Maintaining and Optimizing Windows,104,Updates and Patches
 17,Maintaining and Optimizing Windows,105,Cleaning HD Space
 17,Maintaining and Optimizing Windows,106,Task Scheduler

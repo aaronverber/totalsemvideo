@@ -103,6 +103,7 @@ GEM
     uglifier (1.2.7)
       execjs (>= 0.3.0)
       multi_json (~> 1.3)
+    useragent (0.4.10)
 
 PLATFORMS
   ruby
@@ -117,3 +118,4 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
+  useragent

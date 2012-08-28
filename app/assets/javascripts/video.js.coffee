@@ -4,16 +4,16 @@
 #
 
 
-$(() -> 
-        $(".chapter_link").click(() ->
-                chapter = $(this).text()
-                $(".episode_list").each((l,value) ->
-                        if $(value).attr('data-chapter') == chapter
-                                $(value).show()
-                        else
-                                $(value).hide())
-                        
-                false
-         )
-)              
+$(() ->
+  $(".chapter_link").click(() ->
+    chapter = $(this).text()
+    $(".episode_list").each((l,value) ->
+      if $(value).attr('data-chapter') == chapter
+        $(value).show()
+      else
+        $(value).hide()
+    )
+    false
+  )
+)
         

@@ -1,70 +1,80 @@
 <% content_for :head do %>
 <%= javascript_include_tag params[:controller] %> 
 <%= stylesheet_link_tag params[:controller] %>
+
+
 <% end %>
+
+<%
+   agent = UserAgent.parse(request.user_agent)
+   browser = agent.browser
+   mobile = agent.mobile?
+   platform = agent.platform
+%>
 
 <div id="pjax">
   <div id="wrapper" data-adminica-nav-top="1" data-adminica-side-top="1">
     <%= render "components/topbar" %>
     <%= render "components/sidebar" %>
     <%= render "components/stackbar" %>
-  </div>
-  
-  <div id="main_container" class="main_container container_16 clearfix">
-    <%= render "components/navigation" %>
-    <div class="box grid_16 video-panel">
-      <h2 class="box_head">
-	<%= @episode.name or "No Video" -%>
-      </h2>
-      <% if @episode.video_url.nil? %>
-      <h2 style="margin:10px">No Video Has Been Uploaded</h2>
-      <% else %>
-      <video controls="controls" width="720" height="360" autoplay="autoplay">
-	<source src="<%= @episode.video_url -%>" type="video/mp4" />
+    
+    <div id="main_container" class="main_container container_16 clearfix">
+      <%= render "components/navigation" %>
+      <div class="box grid_16 video-panel">
+	<h2 class="box_head">
+	  <%= @episode.name or "No Video" -%>
+	</h2>
+	<% if @episode.video_url.nil? %>
+	<h2 style="margin:10px">No Video Has Been Uploaded</h2>
+	<% elsif browser == 'Chrome' || mobile %>
+	<video controls="controls" width="720" height="360" autoplay="autoplay">
+	  <source src="<%= @episode.video_url -%>" type="video/mp4" />
+	</video>
+	<% else %>
 	<object type="application/x-shockwave-flash" data="http://player.longtailvideo.com/player.swf" width="720" height="360">
 	  <param name="movie" value="http://player.longtailvideo.com/player.swf" />
 	  <param name="allowFullScreen" value="true" />
 	  <param name="wmode" value="transparent" />
-	  <param name="flashVars" value="controlbar=over&amp;image=http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg&amp;file=<%= flashify(@episode.video_url) -%>" />
-	  <span title="No video playback capabilities, please download the video below">External Connections</span>
+	  <param name="flashVars" value="controlbar=over&amp;file=<%= flashify(@episode.video_url) -%>" />
+	  <span title="No video playback capabilities, please download the video below">Unable to playback video</span>
 	</object>
-      </video>
-      <% end %>
-    </div>
-    <div class="box grid_8">
-      <h2 class="box_head">Chapters</h2>
-      <div class="controls">
-	<a href="#" class="grabber"></a>
-	<a href="#" class="toggle"></a>
+	<% end %>
       </div>
-      <div class="toggle_container">
-	<div class="block">
-	  <div class="section">
-	    <ol>
-	      <% for chapter in @chapters %>
-	      <li><a href="#" class="chapter_link"><%= chapter.name -%></a></li>
-              <% end %>
-	    </ol>
+      <div class="box grid_8">
+	<h2 class="box_head">Chapters</h2>
+	<div class="controls">
+	  <a href="#" class="grabber"></a>
+	  <a href="#" class="toggle"></a>
+	</div>
+	<div class="toggle_container">
+	  <div class="block">
+	    <div class="section">
+	      <ol>
+		<% for chapter in @chapters %>
+		<li><a href="#" class="chapter_link"><%= chapter.name -%></a></li>
+		<% end %>
+	      </ol>
+	    </div>
 	  </div>
 	</div>
       </div>
-    </div>
-    <div class="box grid_8">
-      <h2 class="box_head">Episodes</h2>
-      <div class="controls">
-	<a href="#" class="grabber"></a>
-	<a href="#" class="toggle"></a>
-      </div>
-      <div class="toggle_container">
-	<div class="block">
-	  <div class="section">
-	    <% for chapter in @chapters %>
-	    <ol class="episode_list" data-chapter="<%= chapter.name -%>">
-	      <% for episode in chapter.episodes %>
-	      <li><a href="/video/<%= episode.id -%>" class="episode_link"><%= episode.name -%></a></li>
+      <div class="box grid_8">
+	<h2 class="box_head">Episodes</h2>
+	<div class="controls">
+	  <a href="#" class="grabber"></a>
+	  <a href="#" class="toggle"></a>
+	</div>
+	<div class="toggle_container">
+	  <div class="block">
+	    <div class="section">
+	      <% for chapter in @chapters %>
+	      <ol class="episode_list" data-chapter="<%= chapter.name -%>">
+		<% for episode in chapter.episodes %>
+		<li><a href="/video/<%= episode.id -%>" class="episode_link"><%= episode.name -%></a></li>
+		<% end %>
+	      </ol>
 	      <% end %>
-	    </ol>
-	    <% end %>
+	    </div>
 	  </div>
 	</div>
       </div>

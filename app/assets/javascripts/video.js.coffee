@@ -7,6 +7,7 @@
 $(() ->
   $(".chapter_link").click(() ->
     chapter = $(this).text()
+    $("#episodes-header").html(chapter + " - Episodes")
     $(".episode_list").each((l,value) ->
       if $(value).attr('data-chapter') == chapter
         $(value).show()

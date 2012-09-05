@@ -59,4 +59,5 @@ Totalsemvideo::Application.routes.draw do
   resources :video
   resources :user_sessions
   resources :users
+  match 'video/watched/:id' => 'video#watched'
 end

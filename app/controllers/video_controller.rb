@@ -12,6 +12,13 @@ class VideoController < ApplicationController
     @chapter = Chapter.find(@episode.chapter_id)
   end
 
+  def watched
+    @episode = Episode.find(params[:id])
+    @episode.watched = true
+    @episode.save
+    render :text => "thanks"
+  end
+
   private
   
   def find_course

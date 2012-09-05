@@ -16,5 +16,18 @@ $(() ->
     )
     false
   )
+
+  video_saved = false
+
+  $('#tsem-video-player').bind('timeupdate', () ->
+    player = $("#tsem-video-player")[0]
+    percentage_watched = (player.currentTime / player.duration) * 100
+    console.log(percentage_watched)
+    if percentage_watched > 50.0 and !video_saved
+      console.log("video watched")
+      id = $("#episode-id").html()
+      $.ajax("/video/watched/#{id}", {type: "POST"})
+      video_saved = true
+  )
 )
         

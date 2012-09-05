@@ -6,6 +6,7 @@ class VideoController < ApplicationController
   end
 
   def show
+    @user = current_user
     @course = find_course
     @chapters = @course.chapters
     @episode = Episode.find(params[:id])
@@ -14,8 +15,11 @@ class VideoController < ApplicationController
 
   def watched
     @episode = Episode.find(params[:id])
-    @episode.watched = true
-    @episode.save
+    @user = current_user
+
+    w = Watched.where({:user_id => @user.id, :episode_id => @episode.id}).first_or_create
+    w.save
+
     render :text => "thanks"
   end
 

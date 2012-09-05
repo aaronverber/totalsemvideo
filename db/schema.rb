@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120905041604) do
+ActiveRecord::Schema.define(:version => 20120905045714) do
 
   create_table "chapters", :force => true do |t|
     t.string   "name"
@@ -50,6 +50,13 @@ ActiveRecord::Schema.define(:version => 20120905041604) do
     t.string   "perishable_token",    :null => false
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+  end
+
+  create_table "watcheds", :force => true do |t|
+    t.integer  "user_id",    :null => false
+    t.integer  "episode_id", :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

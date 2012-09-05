@@ -77,8 +77,7 @@
 		<% for episode in chapter.episodes %>
 		<li>
 		  <a href="/video/<%= episode.id -%>" class="episode_link"><%= episode.name -%></a>
-		  <% if episode.watched %> 
-
+		  <% if episode.watched?(@user) %> 
 		  <img src="/images/misc/check.png" />
 		  <% end %>
 		</li>

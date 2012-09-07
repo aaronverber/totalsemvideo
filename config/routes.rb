@@ -57,7 +57,11 @@ Totalsemvideo::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
   root :to => redirect("/video")
   resources :video
-  resources :user_sessions
   resources :users
+  resources :user_sessions
+  match 'logout' => 'user_sessions#logout'
   match 'video/watched/:id' => 'video#watched'
+  match 'shopp/add_user' => 'shopp#add_user'
+  match 'shopp/add_course_access' => 'shopp#add_course_access'
+
 end

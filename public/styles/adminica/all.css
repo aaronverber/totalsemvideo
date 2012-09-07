@@ -680,10 +680,10 @@ a.logo span {
 a.logo {
   background: url(../../images/interface/adminica_logo_black-trans.png) no-repeat;
   display: block;
-  height: 87px;
+  height: 230px;
   width: 180px;
   z-index: 10;
-  margin-top: -22px;
+  margin-top: 0px;
 }
 /*------User Box --------*/
 .dark_box {
@@ -3832,4 +3832,17 @@ button.on_dark,
 .lt-ie7 .tabs ul li,
 .lt-ie8 .tabs ul li {
   margin-bottom: -1px;
+}
+
+a.user_login_logo span {
+  visibility: hidden;
+}
+a.user_login_logo {
+  background: url("../../images/interface/video logo.png") no-repeat;
+  position: absolute;
+  height: 230px;
+  width: 180px;
+  margin-left: -200px;
+  z-index: 10;
+  
 }

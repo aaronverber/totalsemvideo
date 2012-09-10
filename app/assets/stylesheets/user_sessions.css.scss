@@ -2,9 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+a.user_login_logo span {
+  visibility: hidden;
+}
+
+a.user_login_logo {
+  background: url("../../images/interface/video logo.png") no-repeat;
+  position: absolute;
+  height: 230px;
+  width: 180px;
+  z-index: 10;
+  top: 20%;
+  margin-left: 170px;
+}
 
 button.login {
   width: 100px;
 }
 
+.main_container {
+  left: 90px;
+}
 
+#pjax {
+}

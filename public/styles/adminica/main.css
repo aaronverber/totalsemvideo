@@ -51,10 +51,10 @@ a.logo span {
 a.logo {
   background: url(../../images/interface/adminica_logo_black-trans.png) no-repeat;
   display: block;
-  height: 200px;
+  height: 230px;
   width: 180px;
   z-index: 10;
-  margin-top: -22px;
+  margin-top: 0px;
 }
 /*------User Box --------*/
 .dark_box {
@@ -2846,16 +2846,3 @@ ul.breadcrumb > li:last-child {
   margin-bottom: 15px;
 }
 /*----End of Utilities -----*/
-
-a.user_login_logo span {
-  visibility: hidden;
-}
-a.user_login_logo {
-  background: url("../../images/interface/video logo.png") no-repeat;
-  position: absolute;
-  height: 230px;
-  width: 180px;
-  margin-left: -200px;
-  z-index: 10;
-}
-

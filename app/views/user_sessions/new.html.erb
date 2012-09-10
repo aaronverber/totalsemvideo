@@ -1,3 +1,7 @@
+<% content_for :head do %>
+<%= stylesheet_link_tag params[:controller] %>
+<% end %>
+
 
 <div id="pjax">
   <div id="wrapper">
@@ -33,7 +37,7 @@
 		</div>
 	      </fieldset>
 	      <div class="button_bar clearfix">
-		<button class="wide" type="submit">
+		<button class="login" type="submit">
 		  <img src="/images/icons/small/white/key_2.png"/>
 		  <span>Login</span>
 		</button>

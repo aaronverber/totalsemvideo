@@ -10,6 +10,7 @@ course.save
 File.open("data/episodes and chapters.csv").each_line do |line|
   cnum,cname,enum,ename = line.split(',').find_all{|x| x =~ /\w/}
   if !cname.nil? && !cname.empty?
+    cname = cname.gsub('!',',')
     chapter = Chapter.find_or_create_by_name(cname)
     chapter.name = cname
     chapter.number = cnum
@@ -21,7 +22,7 @@ File.open("data/episodes and chapters.csv").each_line do |line|
     puts line
     puts video_url
     
-    episode = Episode.new(name: ename,
+    episode = Episode.new(name: ename.gsub('!',','),
                           number: enum, 
                           chapter: chapter, 
                           video_url: video_url)

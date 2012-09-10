@@ -31,6 +31,7 @@
 	<video id="tsem-video-player" 
 	       controls="controls" width="720" height="360" autoplay="autoplay">
 	  <source src="<%= @episode.video_url -%>" type="video/mp4" />
+	  <source src="<%= oggify(@episode.video_url) -%>" type="video/ogg" />
 	  <object type="application/x-shockwave-flash" data="http://player.longtailvideo.com/player.swf" width="720" height="360">
 	    <param name="movie" value="http://player.longtailvideo.com/player.swf" />
 	    <param name="allowFullScreen" value="true" />

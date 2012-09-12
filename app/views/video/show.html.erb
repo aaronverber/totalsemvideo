@@ -80,7 +80,12 @@
 		  <% if episode.watched?(@user) %> 
 		  <img src="/images/misc/check.png" />
 		  <% end %>
-		  <span class="duration">Length: <%= episode.length -%></span>
+		  <span class="duration">
+		    <% 
+		       length = episode.length || 0
+		    %>
+		    <%= "%s:%s" % [(length / 60),(length % 60)] -%>
+		  </span>
 		</li>
 		<% end %>
 	      </ol>

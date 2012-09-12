@@ -12,10 +12,12 @@
 }
 
 .episode_list li img {
-  margin-top: 4px;
+  margin-top:2px;
+  margin-left: 10px;
   float: right;
 }
 
 .episode_list li .duration {
-  float: right;	      	 
+  position: absolute;
+  right: 50px;
 }

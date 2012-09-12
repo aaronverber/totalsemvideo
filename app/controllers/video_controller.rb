@@ -2,7 +2,7 @@ class VideoController < ApplicationController
   def index
     course = find_course
     chapters = course.chapters
-    redirect_to(:action => "show", :id => 2)
+    redirect_to(:action => "show", :id => 1)
   end
 
   def show

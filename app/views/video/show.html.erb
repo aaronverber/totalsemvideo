@@ -22,9 +22,6 @@
     <div id="main_container" class="main_container container_16 clearfix">
       <%= render "components/navigation" %>
       <div class="box grid_16 video-panel">
-	<h2 class="box_head">
-	  <%= @chapter.name + " - " + @episode.name -%>
-	</h2>
 	<% if @episode.video_url.nil? %>
 	<h2 style="margin:10px">No Video Has Been Uploaded</h2>
 	<% else %>
@@ -42,7 +39,18 @@
 	</video>
 	<% end %>
       </div>
-      <div class="box grid_8">
+      <div id="episode-description"  class="box grid_16">
+      	<div class="block">
+      	  <div class="section">
+      	    <h3>
+      	      <%= @chapter.name -%> | <%= @episode.name -%>
+      	    </h3>
+	    <p><%= @episode.description -%></p>
+      	  </div>
+      	</div>
+      </div>
+
+      <div id="chapters" class="box grid_8">
 	<h2 class="box_head">A+ Chapters</h2>
 	<div class="controls">
 	  <a href="#" class="grabber"></a>
@@ -60,7 +68,7 @@
 	  </div>
 	</div>
       </div>
-      <div class="box grid_8">
+      <div id="episodes" class="box grid_8">
 	<h2 class="box_head" id="episodes-header"> 
 	  <%= @chapter.name + " - Episodes" -%>
 	</h2>

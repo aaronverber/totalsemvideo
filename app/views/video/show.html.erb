@@ -29,7 +29,7 @@
 	<h2 style="margin:10px">No Video Has Been Uploaded</h2>
 	<% else %>
 	<video id="tsem-video-player" 
-	       controls="controls" width="720" height="360" autoplay="autoplay">
+	       controls="controls" width="768" height="432" autoplay="autoplay">
 	  <source src="<%= @episode.video_url -%>" type="video/mp4" />
 	  <source src="<%= oggify(@episode.video_url) -%>" type="video/ogg" />
 	  <object type="application/x-shockwave-flash" data="http://player.longtailvideo.com/player.swf" width="720" height="360">

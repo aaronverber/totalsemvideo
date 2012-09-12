@@ -1,6 +1,5 @@
 class Episode < ActiveRecord::Base
-  # attr_accessible :title, :body
-  attr_accessible :name, :number, :length, :description, :video_url, :chapter
+  attr_accessible :name, :number, :length, :description, :video_url, :chapter, :chapter_id, :watched
   belongs_to :chapter
 
   has_many :watcheds

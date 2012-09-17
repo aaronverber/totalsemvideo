@@ -4,6 +4,9 @@
 #
 
 
+show_overlay = () ->
+  $("#tsem-video-overlay").show()
+
 $(() ->
   $(".chapter_link").click(() ->
     chapter = $(this).text()
@@ -18,7 +21,7 @@ $(() ->
   )
 
   video_saved = false
-
+  
   $('#tsem-video-player').bind('timeupdate', () ->
     player = $("#tsem-video-player")[0]
     percentage_watched = (player.currentTime / player.duration) * 100
@@ -31,5 +34,6 @@ $(() ->
   )
 
   $("#tsem-video-player").bind("contextmenu", (e) -> false)
+  $('#tsem-video-player').bind("ended", () -> show_overlay())
 )
         

@@ -29,5 +29,7 @@ $(() ->
       $.ajax("/video/watched/#{id}", {type: "POST"})
       video_saved = true
   )
+
+  $("#tsem-video-player").bind("contextmenu", (e) -> false)
 )
         

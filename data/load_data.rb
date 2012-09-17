@@ -1,4 +1,5 @@
 u = User.new 
+u.login = "default_user"
 u.email = "default_user@nonsense.com"
 u.password = "foobarbaz"
 u.password_confirmation = "foobarbaz"

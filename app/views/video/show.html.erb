@@ -9,7 +9,7 @@
    browser = agent.browser
    mobile = agent.mobile?
    platform = agent.platform
-%>
+   %>
 
 <div id="episode-id" style="display:none"><%= @episode.id %></div>
 
@@ -92,7 +92,7 @@
 		    <% 
 		       length = episode.length || 0
 		    %>
-		    <%= "%s:%s" % [(length / 60),(length % 60)] -%>
+		    <%= "%s:%02d" % [(length / 60),(length % 60)] -%>
 		  </span>
 		</li>
 		<% end %>

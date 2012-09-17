@@ -7,4 +7,12 @@ ActiveAdmin.register User do
     end
     f.buttons
   end
+
+  index do
+    column :id do |user|
+      link_to user.id, admin_user_path(user)
+    end
+    column :login
+    column :email
+  end
 end

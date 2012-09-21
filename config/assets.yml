@@ -1,0 +1,69 @@
+embed_assets: on
+
+javascripts:
+  workspace:
+    - public/scripts/jquery/jquery.js
+    - public/scripts/jquery/jqueryui.js
+    - public/scripts/modernizr/modernizr.js
+    - public/scripts/prefixfree/prefixfree.js
+    - public/scripts/pjax/pjax.js
+    - public/scripts/isotope/isotope.js
+    - public/scripts/autogrow/autogrow.js
+    - public/scripts/colorpicker/colorpicker.js
+    - public/scripts/cookie/cookie.js
+    - public/scripts/datatables/datatables.js
+    - public/scripts/tinyeditor/tinyeditor.js
+    - public/scripts/fancybox/fancybox.js
+    - public/scripts/flot/flot_excanvas.js
+    - public/scripts/flot/flot.js
+    - public/scripts/flot/flot_resize.js
+    - public/scripts/flot/flot_pie.js
+    - public/scripts/flot/flot_pie_update.js
+    - public/scripts/fullcalendar/fullcalendar.js
+    - public/scripts/fullcalendar/fullcalendar_gcal.js
+    - public/scripts/knob/knob.js
+    - public/scripts/multiselect/multiselect.js
+    - public/scripts/select2/select2.js
+    - public/scripts/slidernav/slidernav.js
+    - public/scripts/smallipop/smallipop.js
+    - public/scripts/syntaxhighlighter/shCore.js
+    - public/scripts/syntaxhighlighter/shBrushJScript.js
+    - public/scripts/syntaxhighlighter/shBrushXml.js
+    - public/scripts/tagit/tagit.js
+    - public/scripts/timepicker/timepicker.js
+    - public/scripts/tinyeditor/tinyeditor.js
+    - public/scripts/tiptip/tiptip.js
+    - public/scripts/touchpunch/touchpunch.js
+    - public/scripts/uistars/uistars.js
+    - public/scripts/uitotop/uitotop.js
+    - public/scripts/uniform/uniform.js
+    - public/scripts/validation/validation.js
+    - public/scripts/adminica/adminica_ui.js
+    - public/scripts/adminica/adminica_mobile.js
+    - public/scripts/adminica/adminica_datatables.js
+    - public/scripts/adminica/adminica_calendar.js
+    - public/scripts/adminica/adminica_charts.js
+    - public/scripts/adminica/adminica_gallery.js
+    - public/scripts/adminica/adminica_various.js
+    - public/scripts/adminica/adminica_wizard.js
+    - public/scripts/adminica/adminica_forms.js
+    - public/scripts/adminica/adminica_load.js
+
+
+stylesheets:
+  workspace:
+    - public/styles/adminica/reset.css
+    - public/styles/plugins/all/plugins.css
+
+    - public/styles/adminica/text.css
+    - public/styles/adminica/grid.css
+    - public/styles/adminica/main.css
+    - public/styles/adminica/mobile.css
+    - public/styles/adminica/base.css
+    - public/styles/adminica/ie.css
+    - public/styles/themes/switcher.css
+    
+    - public/styles/themes/theme_red.css
+    - public/styles/themes/bg_wood.css
+    - public/styles/adminica/colours.css
+    - public/styles/themes/layout_fixed.css

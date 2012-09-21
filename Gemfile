@@ -52,3 +52,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'thin'
+gem 'jammit'

@@ -1,5 +1,6 @@
 embed_assets: off
-compress_assets: on
+compress_assets: off
+package_assets: off
 
 javascripts:
   workspace:

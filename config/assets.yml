@@ -1,5 +1,5 @@
 embed_assets: on
-compress_assets: off
+compress_assets: on
 
 javascripts:
   workspace:
@@ -55,7 +55,6 @@ stylesheets:
   workspace:
     - public/styles/adminica/reset.css
     - public/styles/plugins/all/plugins.css
-
     - public/styles/adminica/text.css
     - public/styles/adminica/grid.css
     - public/styles/adminica/main.css
@@ -63,7 +62,6 @@ stylesheets:
     - public/styles/adminica/base.css
     - public/styles/adminica/ie.css
     - public/styles/themes/switcher.css
-    
     - public/styles/themes/theme_red.css
     - public/styles/themes/bg_wood.css
     - public/styles/adminica/colours.css

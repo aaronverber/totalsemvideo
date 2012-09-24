@@ -10,8 +10,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link href="/images/interface/iOS_icon.png" rel="apple-touch-icon"/>
 
-    <%= include_stylesheets :workspace, :media => 'all' %>
-    <%= include_javascripts :workspace %>    
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+
     <%= yield :head %>
   </head>
   <body>

@@ -11,11 +11,6 @@ gem "meta_search"
 
 group :development do 
   gem 'sqlite3'
-  gem 'pg'
-end
-
-group :production do 
-  gem 'pg'
 end
 
 gem 'authlogic'
@@ -52,4 +47,3 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'thin'
-gem 'jammit'

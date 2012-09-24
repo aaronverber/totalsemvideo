@@ -1,0 +1,1501 @@
+2012-09-21T02:40:43+00:00 app[web.1]: 
+2012-09-21T02:40:43+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:40:43 +0000
+2012-09-21T02:40:43+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:40:43+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (273.3ms)
+2012-09-21T02:40:43+00:00 app[web.1]: Completed 200 OK in 281ms (Views: 268.8ms | ActiveRecord: 7.8ms)
+2012-09-21T02:40:43+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=296ms status=200 bytes=17361
+2012-09-21T02:40:44+00:00 app[web.1]: 
+2012-09-21T02:40:44+00:00 app[web.1]: 
+2012-09-21T02:40:44+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:40:44 +0000
+2012-09-21T02:40:44+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=110ms status=304 bytes=0
+2012-09-21T02:40:44+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:40:44+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (86.1ms)
+2012-09-21T02:40:44+00:00 app[web.1]: Completed 200 OK in 99ms (Views: 90.0ms | ActiveRecord: 2.5ms)
+2012-09-21T02:40:57+00:00 app[web.1]: 
+2012-09-21T02:40:57+00:00 app[web.1]: 
+2012-09-21T02:40:57+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:40:57 +0000
+2012-09-21T02:40:57+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:40:57+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:40:57+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc20", "email"=>"guthrie@totalsem.020", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:40:57+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/159
+2012-09-21T02:40:57+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:40:58+00:00 app[web.1]: 
+2012-09-21T02:40:58+00:00 app[web.1]: 
+2012-09-21T02:40:58+00:00 app[web.1]: Started GET "/admin/users/159" for 98.197.178.211 at 2012-09-21 02:40:58 +0000
+2012-09-21T02:40:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/159 dyno=web.1 queue=0 wait=0ms service=55ms status=200 bytes=6233
+2012-09-21T02:40:58+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:40:58+00:00 app[web.1]:   Parameters: {"id"=>"159"}
+2012-09-21T02:40:58+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (35.4ms)
+2012-09-21T02:40:58+00:00 app[web.1]: Completed 200 OK in 44ms (Views: 33.6ms | ActiveRecord: 7.3ms)
+2012-09-21T02:41:06+00:00 app[web.1]: 
+2012-09-21T02:41:06+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:41:06 +0000
+2012-09-21T02:41:06+00:00 app[web.1]: 
+2012-09-21T02:41:07+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:41:07+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (311.7ms)
+2012-09-21T02:41:07+00:00 app[web.1]: Completed 200 OK in 326ms (Views: 303.2ms | ActiveRecord: 15.9ms)
+2012-09-21T02:41:07+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=342ms status=200 bytes=17361
+2012-09-21T02:41:08+00:00 app[web.1]: 
+2012-09-21T02:41:08+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:41:08 +0000
+2012-09-21T02:41:08+00:00 app[web.1]: 
+2012-09-21T02:41:08+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=52ms status=304 bytes=0
+2012-09-21T02:41:08+00:00 app[web.1]: Completed 200 OK in 39ms (Views: 33.2ms | ActiveRecord: 2.7ms)
+2012-09-21T02:41:08+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:41:08+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (32.6ms)
+2012-09-21T02:41:20+00:00 app[web.1]: 
+2012-09-21T02:41:20+00:00 app[web.1]: 
+2012-09-21T02:41:20+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:41:20 +0000
+2012-09-21T02:41:20+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:41:20+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/160
+2012-09-21T02:41:20+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc21", "email"=>"guthrie@totalsem.021", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:41:20+00:00 app[web.1]: Completed 302 Found in 25ms (ActiveRecord: 0.0ms)
+2012-09-21T02:41:20+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=35ms status=302 bytes=117
+2012-09-21T02:41:20+00:00 app[web.1]: 
+2012-09-21T02:41:20+00:00 app[web.1]: 
+2012-09-21T02:41:20+00:00 app[web.1]: Started GET "/admin/users/160" for 98.197.178.211 at 2012-09-21 02:41:20 +0000
+2012-09-21T02:41:20+00:00 app[web.1]:   Parameters: {"id"=>"160"}
+2012-09-21T02:41:20+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:41:20+00:00 app[web.1]: Completed 200 OK in 86ms (Views: 78.1ms | ActiveRecord: 5.3ms)
+2012-09-21T02:41:20+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (79.1ms)
+2012-09-21T02:41:20+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/160 dyno=web.1 queue=0 wait=0ms service=97ms status=200 bytes=6230
+2012-09-21T02:41:26+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:41:26 +0000
+2012-09-21T02:41:26+00:00 app[web.1]: 
+2012-09-21T02:41:26+00:00 app[web.1]: 
+2012-09-21T02:41:27+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (275.2ms)
+2012-09-21T02:41:27+00:00 app[web.1]: Completed 200 OK in 284ms (Views: 271.0ms | ActiveRecord: 8.0ms)
+2012-09-21T02:41:27+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:41:27+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=297ms status=200 bytes=17361
+2012-09-21T02:41:28+00:00 app[web.1]: 
+2012-09-21T02:41:28+00:00 app[web.1]: 
+2012-09-21T02:41:28+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:41:28 +0000
+2012-09-21T02:41:28+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:41:28+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (41.6ms)
+2012-09-21T02:41:28+00:00 app[web.1]: Completed 200 OK in 57ms (Views: 43.1ms | ActiveRecord: 5.7ms)
+2012-09-21T02:41:28+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=71ms status=304 bytes=0
+2012-09-21T02:41:40+00:00 app[web.1]: 
+2012-09-21T02:41:40+00:00 app[web.1]: 
+2012-09-21T02:41:40+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:41:40 +0000
+2012-09-21T02:41:41+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/161
+2012-09-21T02:41:41+00:00 app[web.1]: Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+2012-09-21T02:41:41+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc22", "email"=>"guthrie@totalsem.022", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:41:41+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:41:41+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=33ms status=302 bytes=117
+2012-09-21T02:41:41+00:00 app[web.1]: 
+2012-09-21T02:41:41+00:00 app[web.1]: 
+2012-09-21T02:41:41+00:00 app[web.1]: Started GET "/admin/users/161" for 98.197.178.211 at 2012-09-21 02:41:41 +0000
+2012-09-21T02:41:41+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/161 dyno=web.1 queue=0 wait=0ms service=55ms status=200 bytes=6232
+2012-09-21T02:41:41+00:00 app[web.1]:   Parameters: {"id"=>"161"}
+2012-09-21T02:41:41+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 32.7ms | ActiveRecord: 6.9ms)
+2012-09-21T02:41:41+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:41:41+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (33.4ms)
+2012-09-21T02:41:54+00:00 app[web.1]: 
+2012-09-21T02:41:54+00:00 app[web.1]: 
+2012-09-21T02:41:54+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:41:54 +0000
+2012-09-21T02:41:54+00:00 app[web.1]: Completed 200 OK in 295ms (Views: 280.0ms | ActiveRecord: 8.2ms)
+2012-09-21T02:41:54+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (284.2ms)
+2012-09-21T02:41:54+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:41:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=311ms status=200 bytes=17361
+2012-09-21T02:41:55+00:00 app[web.1]: 
+2012-09-21T02:41:55+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:41:55 +0000
+2012-09-21T02:41:55+00:00 app[web.1]: 
+2012-09-21T02:41:55+00:00 app[web.1]: Completed 200 OK in 81ms (Views: 76.1ms | ActiveRecord: 2.5ms)
+2012-09-21T02:41:55+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:41:55+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (75.5ms)
+2012-09-21T02:41:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=90ms status=304 bytes=0
+2012-09-21T02:42:08+00:00 app[web.1]: 
+2012-09-21T02:42:08+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:42:08 +0000
+2012-09-21T02:42:08+00:00 app[web.1]: 
+2012-09-21T02:42:08+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:42:08+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc23", "email"=>"guthrie@totalsem.023", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:42:08+00:00 app[web.1]: Completed 302 Found in 33ms (ActiveRecord: 0.0ms)
+2012-09-21T02:42:08+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/162
+2012-09-21T02:42:08+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=47ms status=302 bytes=117
+2012-09-21T02:42:08+00:00 app[web.1]: 
+2012-09-21T02:42:08+00:00 app[web.1]: 
+2012-09-21T02:42:08+00:00 app[web.1]: Started GET "/admin/users/162" for 98.197.178.211 at 2012-09-21 02:42:08 +0000
+2012-09-21T02:42:08+00:00 app[web.1]:   Parameters: {"id"=>"162"}
+2012-09-21T02:42:08+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:42:08+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 33.0ms | ActiveRecord: 5.8ms)
+2012-09-21T02:42:08+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (34.0ms)
+2012-09-21T02:42:08+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/162 dyno=web.1 queue=0 wait=0ms service=57ms status=200 bytes=6234
+2012-09-21T02:42:27+00:00 app[web.1]: 
+2012-09-21T02:42:27+00:00 app[web.1]: 
+2012-09-21T02:42:27+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:42:27 +0000
+2012-09-21T02:42:27+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:42:27+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (256.3ms)
+2012-09-21T02:42:27+00:00 app[web.1]: Completed 200 OK in 265ms (Views: 252.0ms | ActiveRecord: 7.7ms)
+2012-09-21T02:42:28+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=278ms status=200 bytes=17361
+2012-09-21T02:42:29+00:00 app[web.1]: 
+2012-09-21T02:42:29+00:00 app[web.1]: 
+2012-09-21T02:42:29+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:42:29 +0000
+2012-09-21T02:42:29+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=46ms status=304 bytes=0
+2012-09-21T02:42:29+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (28.2ms)
+2012-09-21T02:42:29+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:42:29+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 28.9ms | ActiveRecord: 4.4ms)
+2012-09-21T02:42:40+00:00 app[web.1]: 
+2012-09-21T02:42:40+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:42:40 +0000
+2012-09-21T02:42:40+00:00 app[web.1]: 
+2012-09-21T02:42:40+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:42:40+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc24", "email"=>"guthrie@totalsem.024", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:42:40+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/163
+2012-09-21T02:42:40+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:42:40+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:42:40+00:00 app[web.1]: 
+2012-09-21T02:42:40+00:00 app[web.1]: Started GET "/admin/users/163" for 98.197.178.211 at 2012-09-21 02:42:40 +0000
+2012-09-21T02:42:40+00:00 app[web.1]: 
+2012-09-21T02:42:40+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/163 dyno=web.1 queue=0 wait=0ms service=60ms status=200 bytes=6233
+2012-09-21T02:42:40+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (40.6ms)
+2012-09-21T02:42:40+00:00 app[web.1]:   Parameters: {"id"=>"163"}
+2012-09-21T02:42:40+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:42:40+00:00 app[web.1]: Completed 200 OK in 49ms (Views: 30.3ms | ActiveRecord: 16.2ms)
+2012-09-21T02:42:48+00:00 app[web.1]: 
+2012-09-21T02:42:48+00:00 app[web.1]: 
+2012-09-21T02:42:48+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:42:48 +0000
+2012-09-21T02:42:48+00:00 app[web.1]: Completed 200 OK in 289ms (Views: 278.5ms | ActiveRecord: 7.1ms)
+2012-09-21T02:42:48+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:42:48+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (282.0ms)
+2012-09-21T02:42:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=349ms status=200 bytes=17361
+2012-09-21T02:42:50+00:00 app[web.1]: 
+2012-09-21T02:42:50+00:00 app[web.1]: 
+2012-09-21T02:42:50+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:42:50 +0000
+2012-09-21T02:42:50+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:42:50+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (26.9ms)
+2012-09-21T02:42:50+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 27.5ms | ActiveRecord: 3.0ms)
+2012-09-21T02:42:50+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=47ms status=304 bytes=0
+2012-09-21T02:43:02+00:00 app[web.1]: 
+2012-09-21T02:43:02+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:43:02 +0000
+2012-09-21T02:43:02+00:00 app[web.1]: 
+2012-09-21T02:43:02+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:43:02+00:00 app[web.1]: Completed 302 Found in 50ms (ActiveRecord: 0.0ms)
+2012-09-21T02:43:02+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=62ms status=302 bytes=117
+2012-09-21T02:43:02+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc25", "email"=>"guthrie@totalsem.025", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:43:02+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/164
+2012-09-21T02:43:02+00:00 app[web.1]: 
+2012-09-21T02:43:02+00:00 app[web.1]: 
+2012-09-21T02:43:02+00:00 app[web.1]: Started GET "/admin/users/164" for 98.197.178.211 at 2012-09-21 02:43:02 +0000
+2012-09-21T02:43:02+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:43:02+00:00 app[web.1]:   Parameters: {"id"=>"164"}
+2012-09-21T02:43:02+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (48.3ms)
+2012-09-21T02:43:02+00:00 app[web.1]: Completed 200 OK in 59ms (Views: 47.2ms | ActiveRecord: 8.8ms)
+2012-09-21T02:43:02+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/164 dyno=web.1 queue=0 wait=0ms service=69ms status=200 bytes=6233
+2012-09-21T02:43:10+00:00 app[web.1]: 
+2012-09-21T02:43:10+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:43:10 +0000
+2012-09-21T02:43:10+00:00 app[web.1]: 
+2012-09-21T02:43:10+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:43:10+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (270.0ms)
+2012-09-21T02:43:10+00:00 app[web.1]: Completed 200 OK in 276ms (Views: 266.8ms | ActiveRecord: 6.5ms)
+2012-09-21T02:43:10+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=289ms status=200 bytes=17361
+2012-09-21T02:43:11+00:00 app[web.1]: 
+2012-09-21T02:43:11+00:00 app[web.1]: 
+2012-09-21T02:43:11+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:43:11 +0000
+2012-09-21T02:43:11+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:43:11+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (29.7ms)
+2012-09-21T02:43:11+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 30.6ms | ActiveRecord: 3.1ms)
+2012-09-21T02:43:11+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=49ms status=304 bytes=0
+2012-09-21T02:43:22+00:00 app[web.1]: 
+2012-09-21T02:43:22+00:00 app[web.1]: 
+2012-09-21T02:43:22+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:43:22 +0000
+2012-09-21T02:43:22+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:43:22+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/165
+2012-09-21T02:43:22+00:00 app[web.1]: Completed 302 Found in 29ms (ActiveRecord: 0.0ms)
+2012-09-21T02:43:22+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc26", "email"=>"guthrie@totalsem.026", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:43:22+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=40ms status=302 bytes=117
+2012-09-21T02:43:23+00:00 app[web.1]: 
+2012-09-21T02:43:23+00:00 app[web.1]: 
+2012-09-21T02:43:23+00:00 app[web.1]: Started GET "/admin/users/165" for 98.197.178.211 at 2012-09-21 02:43:23 +0000
+2012-09-21T02:43:23+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/165 dyno=web.1 queue=0 wait=0ms service=103ms status=200 bytes=6232
+2012-09-21T02:43:23+00:00 app[web.1]:   Parameters: {"id"=>"165"}
+2012-09-21T02:43:23+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:43:23+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (83.2ms)
+2012-09-21T02:43:23+00:00 app[web.1]: Completed 200 OK in 92ms (Views: 82.0ms | ActiveRecord: 6.8ms)
+2012-09-21T02:43:28+00:00 app[web.1]: 
+2012-09-21T02:43:28+00:00 app[web.1]: 
+2012-09-21T02:43:28+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:43:28 +0000
+2012-09-21T02:43:29+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:43:29+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=302ms status=200 bytes=17361
+2012-09-21T02:43:29+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (279.3ms)
+2012-09-21T02:43:29+00:00 app[web.1]: Completed 200 OK in 287ms (Views: 274.3ms | ActiveRecord: 8.7ms)
+2012-09-21T02:43:30+00:00 app[web.1]: 
+2012-09-21T02:43:30+00:00 app[web.1]: 
+2012-09-21T02:43:30+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:43:30 +0000
+2012-09-21T02:43:30+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=65ms status=304 bytes=0
+2012-09-21T02:43:30+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:43:30+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (41.2ms)
+2012-09-21T02:43:30+00:00 app[web.1]: Completed 200 OK in 53ms (Views: 41.9ms | ActiveRecord: 5.1ms)
+2012-09-21T02:43:45+00:00 app[web.1]: 
+2012-09-21T02:43:45+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:43:45 +0000
+2012-09-21T02:43:45+00:00 app[web.1]: 
+2012-09-21T02:43:45+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc27", "email"=>"guthrie@totalsem.027", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:43:45+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:43:45+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/166
+2012-09-21T02:43:45+00:00 app[web.1]: Completed 302 Found in 49ms (ActiveRecord: 0.0ms)
+2012-09-21T02:43:45+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=75ms status=302 bytes=117
+2012-09-21T02:43:45+00:00 app[web.1]: 
+2012-09-21T02:43:45+00:00 app[web.1]: 
+2012-09-21T02:43:45+00:00 app[web.1]: Started GET "/admin/users/166" for 98.197.178.211 at 2012-09-21 02:43:45 +0000
+2012-09-21T02:43:45+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/166 dyno=web.1 queue=0 wait=0ms service=65ms status=200 bytes=6234
+2012-09-21T02:43:45+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:43:45+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (41.7ms)
+2012-09-21T02:43:45+00:00 app[web.1]:   Parameters: {"id"=>"166"}
+2012-09-21T02:43:45+00:00 app[web.1]: Completed 200 OK in 54ms (Views: 41.3ms | ActiveRecord: 7.4ms)
+2012-09-21T02:43:53+00:00 app[web.1]: 
+2012-09-21T02:43:53+00:00 app[web.1]: 
+2012-09-21T02:43:53+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:43:53 +0000
+2012-09-21T02:43:53+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:43:53+00:00 app[web.1]: Completed 200 OK in 311ms (Views: 290.4ms | ActiveRecord: 16.7ms)
+2012-09-21T02:43:53+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (295.6ms)
+2012-09-21T02:43:53+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=324ms status=200 bytes=17361
+2012-09-21T02:43:55+00:00 app[web.1]: 
+2012-09-21T02:43:55+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:43:55 +0000
+2012-09-21T02:43:55+00:00 app[web.1]: 
+2012-09-21T02:43:55+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (93.4ms)
+2012-09-21T02:43:55+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:43:55+00:00 app[web.1]: Completed 200 OK in 108ms (Views: 94.8ms | ActiveRecord: 6.3ms)
+2012-09-21T02:43:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=120ms status=304 bytes=0
+2012-09-21T02:44:06+00:00 app[web.1]: 
+2012-09-21T02:44:06+00:00 app[web.1]: 
+2012-09-21T02:44:06+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:44:06 +0000
+2012-09-21T02:44:06+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:44:06+00:00 app[web.1]: Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+2012-09-21T02:44:06+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/167
+2012-09-21T02:44:06+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc28", "email"=>"guthrie@totalsem.028", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:44:06+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=34ms status=302 bytes=117
+2012-09-21T02:44:07+00:00 app[web.1]: 
+2012-09-21T02:44:07+00:00 app[web.1]: 
+2012-09-21T02:44:07+00:00 app[web.1]: Started GET "/admin/users/167" for 98.197.178.211 at 2012-09-21 02:44:07 +0000
+2012-09-21T02:44:07+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/167 dyno=web.1 queue=0 wait=0ms service=44ms status=200 bytes=6232
+2012-09-21T02:44:07+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:44:07+00:00 app[web.1]:   Parameters: {"id"=>"167"}
+2012-09-21T02:44:07+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (27.4ms)
+2012-09-21T02:44:07+00:00 app[web.1]: Completed 200 OK in 34ms (Views: 26.2ms | ActiveRecord: 5.7ms)
+2012-09-21T02:44:13+00:00 app[web.1]: 
+2012-09-21T02:44:13+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:44:13 +0000
+2012-09-21T02:44:13+00:00 app[web.1]: 
+2012-09-21T02:44:14+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:44:14+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (276.9ms)
+2012-09-21T02:44:14+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=296ms status=200 bytes=17361
+2012-09-21T02:44:14+00:00 app[web.1]: Completed 200 OK in 285ms (Views: 268.2ms | ActiveRecord: 12.3ms)
+2012-09-21T02:44:15+00:00 app[web.1]: 
+2012-09-21T02:44:15+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:44:15 +0000
+2012-09-21T02:44:15+00:00 app[web.1]: 
+2012-09-21T02:44:15+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 30.2ms | ActiveRecord: 3.7ms)
+2012-09-21T02:44:15+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (29.5ms)
+2012-09-21T02:44:15+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:44:15+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=46ms status=304 bytes=0
+2012-09-21T02:44:27+00:00 app[web.1]: 
+2012-09-21T02:44:27+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:44:27 +0000
+2012-09-21T02:44:27+00:00 app[web.1]: 
+2012-09-21T02:44:27+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/168
+2012-09-21T02:44:27+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc29", "email"=>"guthrie@totalsem.029", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:44:27+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:44:27+00:00 app[web.1]: Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+2012-09-21T02:44:27+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:44:27+00:00 app[web.1]: 
+2012-09-21T02:44:27+00:00 app[web.1]: 
+2012-09-21T02:44:27+00:00 app[web.1]: Started GET "/admin/users/168" for 98.197.178.211 at 2012-09-21 02:44:27 +0000
+2012-09-21T02:44:27+00:00 app[web.1]:   Parameters: {"id"=>"168"}
+2012-09-21T02:44:27+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:44:27+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (112.8ms)
+2012-09-21T02:44:27+00:00 app[web.1]: Completed 200 OK in 130ms (Views: 118.0ms | ActiveRecord: 6.0ms)
+2012-09-21T02:44:27+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/168 dyno=web.1 queue=0 wait=0ms service=141ms status=200 bytes=6234
+2012-09-21T02:44:34+00:00 app[web.1]: 
+2012-09-21T02:44:34+00:00 app[web.1]: 
+2012-09-21T02:44:34+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:44:34 +0000
+2012-09-21T02:44:34+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:44:34+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (278.6ms)
+2012-09-21T02:44:34+00:00 app[web.1]: Completed 200 OK in 287ms (Views: 274.4ms | ActiveRecord: 8.2ms)
+2012-09-21T02:44:34+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=300ms status=200 bytes=17361
+2012-09-21T02:44:36+00:00 app[web.1]: 
+2012-09-21T02:44:36+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:44:36 +0000
+2012-09-21T02:44:36+00:00 app[web.1]: 
+2012-09-21T02:44:36+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:44:36+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (29.0ms)
+2012-09-21T02:44:36+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=46ms status=304 bytes=0
+2012-09-21T02:44:36+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 29.6ms | ActiveRecord: 2.8ms)
+2012-09-21T02:44:50+00:00 app[web.1]: 
+2012-09-21T02:44:50+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:44:50 +0000
+2012-09-21T02:44:50+00:00 app[web.1]: 
+2012-09-21T02:44:50+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:44:50+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/169
+2012-09-21T02:44:50+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc30", "email"=>"guthrie@totalsem.030", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:44:50+00:00 app[web.1]: Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+2012-09-21T02:44:50+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=74ms status=302 bytes=117
+2012-09-21T02:44:50+00:00 app[web.1]: 
+2012-09-21T02:44:50+00:00 app[web.1]: 
+2012-09-21T02:44:50+00:00 app[web.1]: Started GET "/admin/users/169" for 98.197.178.211 at 2012-09-21 02:44:50 +0000
+2012-09-21T02:44:51+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/169 dyno=web.1 queue=0 wait=0ms service=46ms status=200 bytes=6233
+2012-09-21T02:44:50+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:44:50+00:00 app[web.1]:   Parameters: {"id"=>"169"}
+2012-09-21T02:44:50+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (29.5ms)
+2012-09-21T02:44:50+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 28.2ms | ActiveRecord: 5.4ms)
+2012-09-21T02:44:57+00:00 app[web.1]: 
+2012-09-21T02:44:57+00:00 app[web.1]: Started GET "/admin/users/169/edit" for 98.197.178.211 at 2012-09-21 02:44:57 +0000
+2012-09-21T02:44:57+00:00 app[web.1]: 
+2012-09-21T02:44:57+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/169/edit dyno=web.1 queue=0 wait=0ms service=108ms status=200 bytes=4244
+2012-09-21T02:44:57+00:00 app[web.1]: Processing by Admin::UsersController#edit as HTML
+2012-09-21T02:44:57+00:00 app[web.1]:   Parameters: {"id"=>"169"}
+2012-09-21T02:44:57+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/edit.html.arb (88.4ms)
+2012-09-21T02:44:57+00:00 app[web.1]: Completed 200 OK in 98ms (Views: 88.1ms | ActiveRecord: 6.1ms)
+2012-09-21T02:44:58+00:00 app[web.1]: 
+2012-09-21T02:44:58+00:00 app[web.1]: 
+2012-09-21T02:44:58+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:44:58 +0000
+2012-09-21T02:44:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=43ms status=304 bytes=0
+2012-09-21T02:44:58+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:44:58+00:00 app[web.1]: Completed 200 OK in 34ms (Views: 27.6ms | ActiveRecord: 2.5ms)
+2012-09-21T02:44:58+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (27.0ms)
+2012-09-21T02:45:16+00:00 app[web.1]: 
+2012-09-21T02:45:16+00:00 app[web.1]: 
+2012-09-21T02:45:16+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:45:16 +0000
+2012-09-21T02:45:16+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=43ms status=302 bytes=117
+2012-09-21T02:45:16+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:45:16+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc31", "email"=>"guthrie@totalsem.031", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:45:16+00:00 app[web.1]: Completed 302 Found in 33ms (ActiveRecord: 0.0ms)
+2012-09-21T02:45:16+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/170
+2012-09-21T02:45:16+00:00 app[web.1]: 
+2012-09-21T02:45:16+00:00 app[web.1]: 
+2012-09-21T02:45:16+00:00 app[web.1]: Started GET "/admin/users/170" for 98.197.178.211 at 2012-09-21 02:45:16 +0000
+2012-09-21T02:45:16+00:00 app[web.1]:   Parameters: {"id"=>"170"}
+2012-09-21T02:45:16+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:45:16+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 27.1ms | ActiveRecord: 5.3ms)
+2012-09-21T02:45:16+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (28.0ms)
+2012-09-21T02:45:16+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/170 dyno=web.1 queue=0 wait=0ms service=44ms status=200 bytes=6233
+2012-09-21T02:45:25+00:00 app[web.1]: 
+2012-09-21T02:45:25+00:00 app[web.1]: 
+2012-09-21T02:45:25+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:45:25 +0000
+2012-09-21T02:45:25+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (266.2ms)
+2012-09-21T02:45:25+00:00 app[web.1]: Completed 200 OK in 280ms (Views: 262.1ms | ActiveRecord: 12.3ms)
+2012-09-21T02:45:25+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:45:25+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=294ms status=200 bytes=17361
+2012-09-21T02:45:28+00:00 app[web.1]: 
+2012-09-21T02:45:28+00:00 app[web.1]: 
+2012-09-21T02:45:28+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:45:28 +0000
+2012-09-21T02:45:28+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:45:28+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 40.0ms | ActiveRecord: 3.0ms)
+2012-09-21T02:45:28+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (38.9ms)
+2012-09-21T02:45:28+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=58ms status=304 bytes=0
+2012-09-21T02:45:41+00:00 app[web.1]: 
+2012-09-21T02:45:41+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:45:41 +0000
+2012-09-21T02:45:41+00:00 app[web.1]: 
+2012-09-21T02:45:41+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:45:41+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc32", "email"=>"guthrie@totalsem.032", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:45:41+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/171
+2012-09-21T02:45:41+00:00 app[web.1]: Completed 302 Found in 25ms (ActiveRecord: 0.0ms)
+2012-09-21T02:45:41+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=34ms status=302 bytes=117
+2012-09-21T02:45:41+00:00 app[web.1]: 
+2012-09-21T02:45:41+00:00 app[web.1]: Started GET "/admin/users/171" for 98.197.178.211 at 2012-09-21 02:45:41 +0000
+2012-09-21T02:45:41+00:00 app[web.1]: 
+2012-09-21T02:45:41+00:00 app[web.1]:   Parameters: {"id"=>"171"}
+2012-09-21T02:45:41+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:45:41+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (76.8ms)
+2012-09-21T02:45:41+00:00 app[web.1]: Completed 200 OK in 84ms (Views: 75.7ms | ActiveRecord: 5.4ms)
+2012-09-21T02:45:41+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/171 dyno=web.1 queue=0 wait=0ms service=94ms status=200 bytes=6230
+2012-09-21T02:45:48+00:00 app[web.1]: 
+2012-09-21T02:45:48+00:00 app[web.1]: 
+2012-09-21T02:45:48+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:45:48 +0000
+2012-09-21T02:45:48+00:00 app[web.1]: Completed 200 OK in 288ms (Views: 275.5ms | ActiveRecord: 8.3ms)
+2012-09-21T02:45:48+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (279.2ms)
+2012-09-21T02:45:48+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:45:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=303ms status=200 bytes=17361
+2012-09-21T02:45:50+00:00 app[web.1]: 
+2012-09-21T02:45:50+00:00 app[web.1]: 
+2012-09-21T02:45:50+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:45:50 +0000
+2012-09-21T02:45:50+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:45:50+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (29.9ms)
+2012-09-21T02:45:50+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 30.8ms | ActiveRecord: 3.7ms)
+2012-09-21T02:45:50+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=49ms status=304 bytes=0
+2012-09-21T02:46:04+00:00 app[web.1]: 
+2012-09-21T02:46:04+00:00 app[web.1]: 
+2012-09-21T02:46:04+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:46:04 +0000
+2012-09-21T02:46:04+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:46:04+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc33", "email"=>"guthrie@totalsem.033", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:46:04+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/172
+2012-09-21T02:46:04+00:00 app[web.1]: Completed 302 Found in 23ms (ActiveRecord: 0.0ms)
+2012-09-21T02:46:04+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=33ms status=302 bytes=117
+2012-09-21T02:46:04+00:00 app[web.1]: 
+2012-09-21T02:46:04+00:00 app[web.1]: 
+2012-09-21T02:46:04+00:00 app[web.1]: Started GET "/admin/users/172" for 98.197.178.211 at 2012-09-21 02:46:04 +0000
+2012-09-21T02:46:04+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:46:04+00:00 app[web.1]:   Parameters: {"id"=>"172"}
+2012-09-21T02:46:04+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (30.1ms)
+2012-09-21T02:46:04+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 29.3ms | ActiveRecord: 6.1ms)
+2012-09-21T02:46:04+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/172 dyno=web.1 queue=0 wait=0ms service=47ms status=200 bytes=6229
+2012-09-21T02:46:15+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:46:15 +0000
+2012-09-21T02:46:15+00:00 app[web.1]: 
+2012-09-21T02:46:15+00:00 app[web.1]: 
+2012-09-21T02:46:15+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:46:15+00:00 app[web.1]: Completed 200 OK in 273ms (Views: 260.9ms | ActiveRecord: 9.1ms)
+2012-09-21T02:46:15+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (266.5ms)
+2012-09-21T02:46:15+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=284ms status=200 bytes=17361
+2012-09-21T02:46:16+00:00 app[web.1]: 
+2012-09-21T02:46:16+00:00 app[web.1]: 
+2012-09-21T02:46:16+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:46:16 +0000
+2012-09-21T02:46:17+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=90ms status=304 bytes=0
+2012-09-21T02:46:17+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:46:17+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (74.5ms)
+2012-09-21T02:46:17+00:00 app[web.1]: Completed 200 OK in 81ms (Views: 75.1ms | ActiveRecord: 2.8ms)
+2012-09-21T02:46:30+00:00 app[web.1]: 
+2012-09-21T02:46:30+00:00 app[web.1]: 
+2012-09-21T02:46:30+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:46:30 +0000
+2012-09-21T02:46:30+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc34", "email"=>"guthrie@totalsem.034", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:46:30+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:46:30+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/173
+2012-09-21T02:46:30+00:00 app[web.1]: Completed 302 Found in 31ms (ActiveRecord: 0.0ms)
+2012-09-21T02:46:31+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=54ms status=302 bytes=117
+2012-09-21T02:46:31+00:00 app[web.1]: 
+2012-09-21T02:46:31+00:00 app[web.1]: 
+2012-09-21T02:46:31+00:00 app[web.1]: Started GET "/admin/users/173" for 98.197.178.211 at 2012-09-21 02:46:31 +0000
+2012-09-21T02:46:31+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:46:31+00:00 app[web.1]:   Parameters: {"id"=>"173"}
+2012-09-21T02:46:31+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (70.5ms)
+2012-09-21T02:46:31+00:00 app[web.1]: Completed 200 OK in 91ms (Views: 69.3ms | ActiveRecord: 6.9ms)
+2012-09-21T02:46:31+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/173 dyno=web.1 queue=0 wait=0ms service=108ms status=200 bytes=6232
+2012-09-21T02:46:39+00:00 app[web.1]: 
+2012-09-21T02:46:39+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:46:39 +0000
+2012-09-21T02:46:39+00:00 app[web.1]: 
+2012-09-21T02:46:39+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:46:39+00:00 app[web.1]: Completed 200 OK in 266ms (Views: 255.7ms | ActiveRecord: 7.4ms)
+2012-09-21T02:46:39+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (259.8ms)
+2012-09-21T02:46:39+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=277ms status=200 bytes=17361
+2012-09-21T02:46:41+00:00 app[web.1]: 
+2012-09-21T02:46:41+00:00 app[web.1]: 
+2012-09-21T02:46:41+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:46:41 +0000
+2012-09-21T02:46:41+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (27.5ms)
+2012-09-21T02:46:41+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 28.1ms | ActiveRecord: 2.5ms)
+2012-09-21T02:46:41+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:46:41+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=43ms status=304 bytes=0
+2012-09-21T02:46:54+00:00 app[web.1]: 
+2012-09-21T02:46:54+00:00 app[web.1]: 
+2012-09-21T02:46:54+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:46:54 +0000
+2012-09-21T02:46:54+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=55ms status=302 bytes=117
+2012-09-21T02:46:54+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/174
+2012-09-21T02:46:54+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:46:54+00:00 app[web.1]: Completed 302 Found in 46ms (ActiveRecord: 0.0ms)
+2012-09-21T02:46:54+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc35", "email"=>"guthrie@totalsem.035", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:46:54+00:00 app[web.1]: 
+2012-09-21T02:46:54+00:00 app[web.1]: 
+2012-09-21T02:46:54+00:00 app[web.1]: Started GET "/admin/users/174" for 98.197.178.211 at 2012-09-21 02:46:54 +0000
+2012-09-21T02:46:54+00:00 app[web.1]:   Parameters: {"id"=>"174"}
+2012-09-21T02:46:54+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:46:54+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (89.8ms)
+2012-09-21T02:46:54+00:00 app[web.1]: Completed 200 OK in 101ms (Views: 89.2ms | ActiveRecord: 5.1ms)
+2012-09-21T02:46:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/174 dyno=web.1 queue=0 wait=0ms service=112ms status=200 bytes=6231
+2012-09-21T02:47:05+00:00 app[web.1]: 
+2012-09-21T02:47:05+00:00 app[web.1]: 
+2012-09-21T02:47:05+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:47:05 +0000
+2012-09-21T02:47:05+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:47:05+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (265.5ms)
+2012-09-21T02:47:05+00:00 app[web.1]: Completed 200 OK in 272ms (Views: 261.8ms | ActiveRecord: 7.2ms)
+2012-09-21T02:47:05+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=285ms status=200 bytes=17361
+2012-09-21T02:47:34+00:00 app[web.1]: 
+2012-09-21T02:47:34+00:00 app[web.1]: 
+2012-09-21T02:47:34+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:47:34 +0000
+2012-09-21T02:47:34+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=48ms status=304 bytes=0
+2012-09-21T02:47:34+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:47:34+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (32.6ms)
+2012-09-21T02:47:34+00:00 app[web.1]: Completed 200 OK in 39ms (Views: 33.3ms | ActiveRecord: 2.4ms)
+2012-09-21T02:47:51+00:00 app[web.1]: 
+2012-09-21T02:47:51+00:00 app[web.1]: 
+2012-09-21T02:47:51+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:47:51 +0000
+2012-09-21T02:47:51+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:47:51+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/175
+2012-09-21T02:47:51+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc36", "email"=>"guthrie@totalsem.036", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:47:51+00:00 app[web.1]: Completed 302 Found in 52ms (ActiveRecord: 0.0ms)
+2012-09-21T02:47:51+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=64ms status=302 bytes=117
+2012-09-21T02:47:51+00:00 app[web.1]: 
+2012-09-21T02:47:51+00:00 app[web.1]: Started GET "/admin/users/175" for 98.197.178.211 at 2012-09-21 02:47:51 +0000
+2012-09-21T02:47:51+00:00 app[web.1]: 
+2012-09-21T02:47:51+00:00 app[web.1]:   Parameters: {"id"=>"175"}
+2012-09-21T02:47:51+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (31.9ms)
+2012-09-21T02:47:51+00:00 app[web.1]: Completed 200 OK in 41ms (Views: 30.7ms | ActiveRecord: 5.7ms)
+2012-09-21T02:47:51+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:47:51+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/175 dyno=web.1 queue=0 wait=0ms service=54ms status=200 bytes=6233
+2012-09-21T02:47:58+00:00 app[web.1]: 
+2012-09-21T02:47:58+00:00 app[web.1]: 
+2012-09-21T02:47:58+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:47:58 +0000
+2012-09-21T02:47:59+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:47:59+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (342.1ms)
+2012-09-21T02:47:59+00:00 app[web.1]: Completed 200 OK in 351ms (Views: 338.5ms | ActiveRecord: 8.0ms)
+2012-09-21T02:47:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=365ms status=200 bytes=17361
+2012-09-21T02:48:00+00:00 app[web.1]: 
+2012-09-21T02:48:00+00:00 app[web.1]: 
+2012-09-21T02:48:00+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:48:00 +0000
+2012-09-21T02:48:00+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:48:00+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (114.9ms)
+2012-09-21T02:48:00+00:00 app[web.1]: Completed 200 OK in 127ms (Views: 115.7ms | ActiveRecord: 7.3ms)
+2012-09-21T02:48:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=150ms status=304 bytes=0
+2012-09-21T02:48:13+00:00 app[web.1]: 
+2012-09-21T02:48:13+00:00 app[web.1]: 
+2012-09-21T02:48:13+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:48:13 +0000
+2012-09-21T02:48:13+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:48:13+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc37", "email"=>"guthrie@totalsem.037", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:48:13+00:00 app[web.1]: Completed 302 Found in 29ms (ActiveRecord: 0.0ms)
+2012-09-21T02:48:13+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/176
+2012-09-21T02:48:13+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=42ms status=302 bytes=117
+2012-09-21T02:48:13+00:00 app[web.1]: 
+2012-09-21T02:48:13+00:00 app[web.1]: 
+2012-09-21T02:48:13+00:00 app[web.1]: Started GET "/admin/users/176" for 98.197.178.211 at 2012-09-21 02:48:13 +0000
+2012-09-21T02:48:13+00:00 app[web.1]:   Parameters: {"id"=>"176"}
+2012-09-21T02:48:13+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:48:13+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (29.7ms)
+2012-09-21T02:48:13+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 29.0ms | ActiveRecord: 5.6ms)
+2012-09-21T02:48:13+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/176 dyno=web.1 queue=0 wait=0ms service=48ms status=200 bytes=6233
+2012-09-21T02:48:22+00:00 app[web.1]: 
+2012-09-21T02:48:22+00:00 app[web.1]: 
+2012-09-21T02:48:22+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:48:22 +0000
+2012-09-21T02:48:23+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:48:23+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (270.7ms)
+2012-09-21T02:48:23+00:00 app[web.1]: Completed 200 OK in 280ms (Views: 268.3ms | ActiveRecord: 7.7ms)
+2012-09-21T02:48:23+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=291ms status=200 bytes=17361
+2012-09-21T02:48:24+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=99ms status=304 bytes=0
+2012-09-21T02:48:24+00:00 app[web.1]: 
+2012-09-21T02:48:24+00:00 app[web.1]: 
+2012-09-21T02:48:24+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:48:24 +0000
+2012-09-21T02:48:24+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:48:24+00:00 app[web.1]: Completed 200 OK in 41ms (Views: 30.3ms | ActiveRecord: 5.5ms)
+2012-09-21T02:48:24+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (29.5ms)
+2012-09-21T02:48:37+00:00 app[web.1]: 
+2012-09-21T02:48:37+00:00 app[web.1]: 
+2012-09-21T02:48:37+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:48:37 +0000
+2012-09-21T02:48:37+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:48:37+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/177
+2012-09-21T02:48:37+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc38", "email"=>"guthrie@totalsem.038", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:48:37+00:00 app[web.1]: Completed 302 Found in 43ms (ActiveRecord: 0.0ms)
+2012-09-21T02:48:37+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=54ms status=302 bytes=117
+2012-09-21T02:48:37+00:00 app[web.1]: 
+2012-09-21T02:48:37+00:00 app[web.1]: 
+2012-09-21T02:48:37+00:00 app[web.1]: Started GET "/admin/users/177" for 98.197.178.211 at 2012-09-21 02:48:37 +0000
+2012-09-21T02:48:37+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:48:37+00:00 app[web.1]:   Parameters: {"id"=>"177"}
+2012-09-21T02:48:37+00:00 app[web.1]: Completed 200 OK in 73ms (Views: 56.8ms | ActiveRecord: 8.8ms)
+2012-09-21T02:48:37+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (57.4ms)
+2012-09-21T02:48:37+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/177 dyno=web.1 queue=0 wait=0ms service=85ms status=200 bytes=6233
+2012-09-21T02:48:45+00:00 app[web.1]: 
+2012-09-21T02:48:45+00:00 app[web.1]: 
+2012-09-21T02:48:45+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:48:45 +0000
+2012-09-21T02:48:46+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:48:46+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (269.3ms)
+2012-09-21T02:48:46+00:00 app[web.1]: Completed 200 OK in 280ms (Views: 264.3ms | ActiveRecord: 9.7ms)
+2012-09-21T02:48:46+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=339ms status=200 bytes=17361
+2012-09-21T02:48:47+00:00 app[web.1]: 
+2012-09-21T02:48:47+00:00 app[web.1]: 
+2012-09-21T02:48:47+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:48:47 +0000
+2012-09-21T02:48:47+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:48:47+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (33.2ms)
+2012-09-21T02:48:47+00:00 app[web.1]: Completed 200 OK in 40ms (Views: 33.8ms | ActiveRecord: 3.2ms)
+2012-09-21T02:48:47+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=69ms status=304 bytes=0
+2012-09-21T02:49:00+00:00 app[web.1]: 
+2012-09-21T02:49:00+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:49:00 +0000
+2012-09-21T02:49:00+00:00 app[web.1]: 
+2012-09-21T02:49:00+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=35ms status=302 bytes=117
+2012-09-21T02:49:00+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:49:00+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc39", "email"=>"guthrie@totalsem.039", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:49:00+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/178
+2012-09-21T02:49:00+00:00 app[web.1]: Completed 302 Found in 25ms (ActiveRecord: 0.0ms)
+2012-09-21T02:49:00+00:00 app[web.1]: 
+2012-09-21T02:49:00+00:00 app[web.1]: Started GET "/admin/users/178" for 98.197.178.211 at 2012-09-21 02:49:00 +0000
+2012-09-21T02:49:00+00:00 app[web.1]: 
+2012-09-21T02:49:00+00:00 app[web.1]:   Parameters: {"id"=>"178"}
+2012-09-21T02:49:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/178 dyno=web.1 queue=0 wait=0ms service=46ms status=200 bytes=6234
+2012-09-21T02:49:00+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:49:00+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 27.4ms | ActiveRecord: 6.6ms)
+2012-09-21T02:49:00+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (28.6ms)
+2012-09-21T02:49:07+00:00 app[web.1]: 
+2012-09-21T02:49:07+00:00 app[web.1]: 
+2012-09-21T02:49:07+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:49:07 +0000
+2012-09-21T02:49:07+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:49:07+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (282.8ms)
+2012-09-21T02:49:07+00:00 app[web.1]: Completed 200 OK in 292ms (Views: 278.3ms | ActiveRecord: 8.2ms)
+2012-09-21T02:49:07+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=304ms status=200 bytes=17361
+2012-09-21T02:49:09+00:00 app[web.1]: 
+2012-09-21T02:49:09+00:00 app[web.1]: 
+2012-09-21T02:49:09+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:49:09 +0000
+2012-09-21T02:49:09+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=47ms status=304 bytes=0
+2012-09-21T02:49:09+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:49:09+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (30.7ms)
+2012-09-21T02:49:09+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 31.3ms | ActiveRecord: 3.8ms)
+2012-09-21T02:49:23+00:00 app[web.1]: 
+2012-09-21T02:49:23+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:49:23 +0000
+2012-09-21T02:49:23+00:00 app[web.1]: 
+2012-09-21T02:49:24+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:49:23+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:49:23+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:49:23+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc40", "email"=>"guthrie@totalsem.040", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:49:23+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/179
+2012-09-21T02:49:24+00:00 app[web.1]: 
+2012-09-21T02:49:24+00:00 app[web.1]: 
+2012-09-21T02:49:24+00:00 app[web.1]: Started GET "/admin/users/179" for 98.197.178.211 at 2012-09-21 02:49:24 +0000
+2012-09-21T02:49:24+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/179 dyno=web.1 queue=0 wait=0ms service=97ms status=200 bytes=6231
+2012-09-21T02:49:24+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:49:24+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (79.0ms)
+2012-09-21T02:49:24+00:00 app[web.1]:   Parameters: {"id"=>"179"}
+2012-09-21T02:49:24+00:00 app[web.1]: Completed 200 OK in 86ms (Views: 78.4ms | ActiveRecord: 5.3ms)
+2012-09-21T02:49:33+00:00 app[web.1]: 
+2012-09-21T02:49:33+00:00 app[web.1]: 
+2012-09-21T02:49:33+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:49:33 +0000
+2012-09-21T02:49:33+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:49:33+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (293.3ms)
+2012-09-21T02:49:33+00:00 app[web.1]: Completed 200 OK in 300ms (Views: 288.5ms | ActiveRecord: 8.5ms)
+2012-09-21T02:49:33+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=315ms status=200 bytes=17361
+2012-09-21T02:49:34+00:00 app[web.1]: 
+2012-09-21T02:49:34+00:00 app[web.1]: 
+2012-09-21T02:49:34+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:49:34 +0000
+2012-09-21T02:49:34+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=46ms status=304 bytes=0
+2012-09-21T02:49:34+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:49:34+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (30.5ms)
+2012-09-21T02:49:34+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 31.1ms | ActiveRecord: 2.4ms)
+2012-09-21T02:49:48+00:00 app[web.1]: 
+2012-09-21T02:49:48+00:00 app[web.1]: 
+2012-09-21T02:49:48+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:49:48 +0000
+2012-09-21T02:49:48+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:49:48+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc41", "email"=>"guthrie@totalsem.041", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:49:48+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/180
+2012-09-21T02:49:48+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:49:48+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:49:48+00:00 app[web.1]: 
+2012-09-21T02:49:48+00:00 app[web.1]: 
+2012-09-21T02:49:48+00:00 app[web.1]: Started GET "/admin/users/180" for 98.197.178.211 at 2012-09-21 02:49:48 +0000
+2012-09-21T02:49:48+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:49:48+00:00 app[web.1]:   Parameters: {"id"=>"180"}
+2012-09-21T02:49:48+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (30.1ms)
+2012-09-21T02:49:48+00:00 app[web.1]: Completed 200 OK in 37ms (Views: 29.4ms | ActiveRecord: 5.1ms)
+2012-09-21T02:49:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/180 dyno=web.1 queue=0 wait=0ms service=46ms status=200 bytes=6231
+2012-09-21T02:49:56+00:00 app[web.1]: 
+2012-09-21T02:49:56+00:00 app[web.1]: 
+2012-09-21T02:49:56+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:49:56 +0000
+2012-09-21T02:49:56+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (379.2ms)
+2012-09-21T02:49:56+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:49:56+00:00 app[web.1]: Completed 200 OK in 387ms (Views: 375.2ms | ActiveRecord: 8.3ms)
+2012-09-21T02:49:57+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=403ms status=200 bytes=17361
+2012-09-21T02:49:58+00:00 app[web.1]: 
+2012-09-21T02:49:58+00:00 app[web.1]: 
+2012-09-21T02:49:58+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:49:58 +0000
+2012-09-21T02:49:58+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:49:58+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (78.4ms)
+2012-09-21T02:49:58+00:00 app[web.1]: Completed 200 OK in 85ms (Views: 79.1ms | ActiveRecord: 2.4ms)
+2012-09-21T02:49:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=97ms status=304 bytes=0
+2012-09-21T02:50:11+00:00 app[web.1]: 
+2012-09-21T02:50:11+00:00 app[web.1]: 
+2012-09-21T02:50:11+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:50:11 +0000
+2012-09-21T02:50:11+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:50:11+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc42", "email"=>"guthrie@totalsem.042", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:50:11+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/181
+2012-09-21T02:50:11+00:00 app[web.1]: Completed 302 Found in 44ms (ActiveRecord: 0.0ms)
+2012-09-21T02:50:11+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=63ms status=302 bytes=117
+2012-09-21T02:50:11+00:00 app[web.1]: 
+2012-09-21T02:50:11+00:00 app[web.1]: Started GET "/admin/users/181" for 98.197.178.211 at 2012-09-21 02:50:11 +0000
+2012-09-21T02:50:11+00:00 app[web.1]: 
+2012-09-21T02:50:11+00:00 app[web.1]:   Parameters: {"id"=>"181"}
+2012-09-21T02:50:11+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:50:11+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (68.7ms)
+2012-09-21T02:50:11+00:00 app[web.1]: Completed 200 OK in 85ms (Views: 68.6ms | ActiveRecord: 10.0ms)
+2012-09-21T02:50:11+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/181 dyno=web.1 queue=0 wait=0ms service=114ms status=200 bytes=6233
+2012-09-21T02:50:19+00:00 app[web.1]: 
+2012-09-21T02:50:19+00:00 app[web.1]: 
+2012-09-21T02:50:19+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:50:19 +0000
+2012-09-21T02:50:20+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=405ms status=200 bytes=17361
+2012-09-21T02:50:20+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (375.2ms)
+2012-09-21T02:50:20+00:00 app[web.1]: Completed 200 OK in 383ms (Views: 367.4ms | ActiveRecord: 11.9ms)
+2012-09-21T02:50:20+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:50:21+00:00 app[web.1]: 
+2012-09-21T02:50:21+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:50:21 +0000
+2012-09-21T02:50:21+00:00 app[web.1]: 
+2012-09-21T02:50:21+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=52ms status=304 bytes=0
+2012-09-21T02:50:21+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:50:21+00:00 app[web.1]: Completed 200 OK in 39ms (Views: 33.8ms | ActiveRecord: 2.6ms)
+2012-09-21T02:50:21+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (33.1ms)
+2012-09-21T02:50:34+00:00 app[web.1]: 
+2012-09-21T02:50:34+00:00 app[web.1]: 
+2012-09-21T02:50:34+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:50:34 +0000
+2012-09-21T02:50:34+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc43", "email"=>"guthrie@totalsem.043", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:50:34+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/182
+2012-09-21T02:50:34+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:50:34+00:00 app[web.1]: Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+2012-09-21T02:50:34+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:50:34+00:00 app[web.1]: Started GET "/admin/users/182" for 98.197.178.211 at 2012-09-21 02:50:34 +0000
+2012-09-21T02:50:34+00:00 app[web.1]: 
+2012-09-21T02:50:34+00:00 app[web.1]: 
+2012-09-21T02:50:35+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/182 dyno=web.1 queue=0 wait=0ms service=113ms status=200 bytes=6231
+2012-09-21T02:50:35+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:50:35+00:00 app[web.1]:   Parameters: {"id"=>"182"}
+2012-09-21T02:50:35+00:00 app[web.1]: Completed 200 OK in 98ms (Views: 80.3ms | ActiveRecord: 14.4ms)
+2012-09-21T02:50:35+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (89.9ms)
+2012-09-21T02:50:45+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:50:45 +0000
+2012-09-21T02:50:45+00:00 app[web.1]: 
+2012-09-21T02:50:45+00:00 app[web.1]: 
+2012-09-21T02:50:45+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:50:45+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (361.7ms)
+2012-09-21T02:50:45+00:00 app[web.1]: Completed 200 OK in 383ms (Views: 347.1ms | ActiveRecord: 32.2ms)
+2012-09-21T02:50:45+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=406ms status=200 bytes=17361
+2012-09-21T02:50:46+00:00 app[web.1]: 
+2012-09-21T02:50:46+00:00 app[web.1]: 
+2012-09-21T02:50:46+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:50:46 +0000
+2012-09-21T02:50:46+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:50:46+00:00 app[web.1]: Completed 200 OK in 40ms (Views: 33.7ms | ActiveRecord: 2.6ms)
+2012-09-21T02:50:46+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (33.0ms)
+2012-09-21T02:50:46+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=50ms status=304 bytes=0
+2012-09-21T02:51:01+00:00 app[web.1]: 
+2012-09-21T02:51:01+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:51:01 +0000
+2012-09-21T02:51:01+00:00 app[web.1]: 
+2012-09-21T02:51:01+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=38ms status=302 bytes=117
+2012-09-21T02:51:01+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/183
+2012-09-21T02:51:01+00:00 app[web.1]: Completed 302 Found in 25ms (ActiveRecord: 0.0ms)
+2012-09-21T02:51:01+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:51:01+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc44", "email"=>"guthrie@totalsem.044", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:51:01+00:00 app[web.1]: 
+2012-09-21T02:51:01+00:00 app[web.1]: 
+2012-09-21T02:51:01+00:00 app[web.1]: Started GET "/admin/users/183" for 98.197.178.211 at 2012-09-21 02:51:01 +0000
+2012-09-21T02:51:01+00:00 app[web.1]:   Parameters: {"id"=>"183"}
+2012-09-21T02:51:01+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:51:01+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (31.7ms)
+2012-09-21T02:51:01+00:00 app[web.1]: Completed 200 OK in 39ms (Views: 30.5ms | ActiveRecord: 5.8ms)
+2012-09-21T02:51:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/183 dyno=web.1 queue=0 wait=0ms service=51ms status=200 bytes=6231
+2012-09-21T02:51:08+00:00 app[web.1]: 
+2012-09-21T02:51:08+00:00 app[web.1]: 
+2012-09-21T02:51:08+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:51:08 +0000
+2012-09-21T02:51:08+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:51:08+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (267.5ms)
+2012-09-21T02:51:08+00:00 app[web.1]: Completed 200 OK in 274ms (Views: 263.4ms | ActiveRecord: 7.4ms)
+2012-09-21T02:51:08+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=285ms status=200 bytes=17361
+2012-09-21T02:51:10+00:00 app[web.1]: 
+2012-09-21T02:51:10+00:00 app[web.1]: 
+2012-09-21T02:51:10+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:51:10 +0000
+2012-09-21T02:51:10+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:51:10+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (79.1ms)
+2012-09-21T02:51:10+00:00 app[web.1]: Completed 200 OK in 87ms (Views: 79.8ms | ActiveRecord: 2.3ms)
+2012-09-21T02:51:10+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=96ms status=304 bytes=0
+2012-09-21T02:51:23+00:00 app[web.1]: 
+2012-09-21T02:51:23+00:00 app[web.1]: 
+2012-09-21T02:51:23+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:51:23 +0000
+2012-09-21T02:51:23+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:51:23+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc45", "email"=>"guthrie@totalsem.045", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:51:23+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=36ms status=302 bytes=117
+2012-09-21T02:51:23+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/184
+2012-09-21T02:51:23+00:00 app[web.1]: Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+2012-09-21T02:51:23+00:00 app[web.1]: 
+2012-09-21T02:51:23+00:00 app[web.1]: 
+2012-09-21T02:51:23+00:00 app[web.1]: Started GET "/admin/users/184" for 98.197.178.211 at 2012-09-21 02:51:23 +0000
+2012-09-21T02:51:23+00:00 app[web.1]:   Parameters: {"id"=>"184"}
+2012-09-21T02:51:23+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (31.0ms)
+2012-09-21T02:51:23+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:51:23+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 30.0ms | ActiveRecord: 5.4ms)
+2012-09-21T02:51:23+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/184 dyno=web.1 queue=0 wait=0ms service=48ms status=200 bytes=6233
+2012-09-21T02:51:32+00:00 app[web.1]: 
+2012-09-21T02:51:32+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:51:32 +0000
+2012-09-21T02:51:32+00:00 app[web.1]: 
+2012-09-21T02:51:32+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:51:32+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (268.8ms)
+2012-09-21T02:51:32+00:00 app[web.1]: Completed 200 OK in 276ms (Views: 263.9ms | ActiveRecord: 8.8ms)
+2012-09-21T02:51:32+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=287ms status=200 bytes=17361
+2012-09-21T02:51:34+00:00 app[web.1]: 
+2012-09-21T02:51:34+00:00 app[web.1]: 
+2012-09-21T02:51:34+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:51:34 +0000
+2012-09-21T02:51:34+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:51:34+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (30.0ms)
+2012-09-21T02:51:34+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 30.6ms | ActiveRecord: 2.3ms)
+2012-09-21T02:51:34+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=45ms status=304 bytes=0
+2012-09-21T02:51:47+00:00 app[web.1]: 
+2012-09-21T02:51:47+00:00 app[web.1]: 
+2012-09-21T02:51:47+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:51:47 +0000
+2012-09-21T02:51:47+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=36ms status=302 bytes=117
+2012-09-21T02:51:47+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:51:47+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc46", "email"=>"guthrie@totalsem.046", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:51:47+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/185
+2012-09-21T02:51:47+00:00 app[web.1]: Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+2012-09-21T02:51:47+00:00 app[web.1]: 
+2012-09-21T02:51:47+00:00 app[web.1]: 
+2012-09-21T02:51:47+00:00 app[web.1]: Started GET "/admin/users/185" for 98.197.178.211 at 2012-09-21 02:51:47 +0000
+2012-09-21T02:51:47+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:51:47+00:00 app[web.1]:   Parameters: {"id"=>"185"}
+2012-09-21T02:51:47+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (119.4ms)
+2012-09-21T02:51:47+00:00 app[web.1]: Completed 200 OK in 133ms (Views: 115.9ms | ActiveRecord: 10.6ms)
+2012-09-21T02:51:47+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/185 dyno=web.1 queue=0 wait=0ms service=147ms status=200 bytes=6232
+2012-09-21T02:51:55+00:00 app[web.1]: 
+2012-09-21T02:51:55+00:00 app[web.1]: 
+2012-09-21T02:51:55+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:51:55 +0000
+2012-09-21T02:51:55+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:51:55+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (265.7ms)
+2012-09-21T02:51:55+00:00 app[web.1]: Completed 200 OK in 274ms (Views: 262.1ms | ActiveRecord: 7.0ms)
+2012-09-21T02:51:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=339ms status=200 bytes=17361
+2012-09-21T02:51:57+00:00 app[web.1]: 
+2012-09-21T02:51:57+00:00 app[web.1]: 
+2012-09-21T02:51:57+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:51:57 +0000
+2012-09-21T02:51:57+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=50ms status=304 bytes=0
+2012-09-21T02:51:57+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:51:57+00:00 app[web.1]: Completed 200 OK in 40ms (Views: 32.5ms | ActiveRecord: 2.6ms)
+2012-09-21T02:51:57+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (31.8ms)
+2012-09-21T02:52:09+00:00 app[web.1]: 
+2012-09-21T02:52:09+00:00 app[web.1]: 
+2012-09-21T02:52:09+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:52:09 +0000
+2012-09-21T02:52:09+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:52:09+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc47", "email"=>"guthrie@totalsem.047", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:52:09+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/186
+2012-09-21T02:52:09+00:00 app[web.1]: Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+2012-09-21T02:52:09+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=37ms status=302 bytes=117
+2012-09-21T02:52:09+00:00 app[web.1]: 
+2012-09-21T02:52:09+00:00 app[web.1]: 
+2012-09-21T02:52:09+00:00 app[web.1]: Started GET "/admin/users/186" for 98.197.178.211 at 2012-09-21 02:52:09 +0000
+2012-09-21T02:52:10+00:00 app[web.1]:   Parameters: {"id"=>"186"}
+2012-09-21T02:52:10+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:52:10+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (74.2ms)
+2012-09-21T02:52:10+00:00 app[web.1]: Completed 200 OK in 120ms (Views: 73.0ms | ActiveRecord: 27.9ms)
+2012-09-21T02:52:10+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/186 dyno=web.1 queue=0 wait=0ms service=136ms status=200 bytes=6233
+2012-09-21T02:52:18+00:00 app[web.1]: 
+2012-09-21T02:52:18+00:00 app[web.1]: 
+2012-09-21T02:52:18+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:52:18 +0000
+2012-09-21T02:52:18+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:52:18+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (269.7ms)
+2012-09-21T02:52:18+00:00 app[web.1]: Completed 200 OK in 336ms (Views: 323.8ms | ActiveRecord: 7.5ms)
+2012-09-21T02:52:18+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=355ms status=200 bytes=17361
+2012-09-21T02:52:19+00:00 app[web.1]: 
+2012-09-21T02:52:19+00:00 app[web.1]: 
+2012-09-21T02:52:19+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:52:19 +0000
+2012-09-21T02:52:19+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=61ms status=304 bytes=0
+2012-09-21T02:52:19+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:52:19+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (40.1ms)
+2012-09-21T02:52:19+00:00 app[web.1]: Completed 200 OK in 50ms (Views: 40.8ms | ActiveRecord: 3.3ms)
+2012-09-21T02:52:31+00:00 app[web.1]: 
+2012-09-21T02:52:31+00:00 app[web.1]: 
+2012-09-21T02:52:31+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:52:31 +0000
+2012-09-21T02:52:31+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:52:31+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc48", "email"=>"guthrie@totalsem.048", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:52:31+00:00 app[web.1]: Completed 302 Found in 38ms (ActiveRecord: 0.0ms)
+2012-09-21T02:52:31+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/187
+2012-09-21T02:52:32+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=56ms status=302 bytes=117
+2012-09-21T02:52:32+00:00 app[web.1]: 
+2012-09-21T02:52:32+00:00 app[web.1]: Started GET "/admin/users/187" for 98.197.178.211 at 2012-09-21 02:52:32 +0000
+2012-09-21T02:52:32+00:00 app[web.1]: 
+2012-09-21T02:52:32+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:52:32+00:00 app[web.1]:   Parameters: {"id"=>"187"}
+2012-09-21T02:52:32+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (87.9ms)
+2012-09-21T02:52:32+00:00 app[web.1]: Completed 200 OK in 97ms (Views: 86.9ms | ActiveRecord: 6.2ms)
+2012-09-21T02:52:32+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/187 dyno=web.1 queue=0 wait=0ms service=108ms status=200 bytes=6234
+2012-09-21T02:52:39+00:00 app[web.1]: 
+2012-09-21T02:52:39+00:00 app[web.1]: 
+2012-09-21T02:52:39+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:52:39 +0000
+2012-09-21T02:52:39+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:52:39+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (317.6ms)
+2012-09-21T02:52:39+00:00 app[web.1]: Completed 200 OK in 331ms (Views: 311.9ms | ActiveRecord: 11.2ms)
+2012-09-21T02:52:39+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=344ms status=200 bytes=17361
+2012-09-21T02:52:40+00:00 app[web.1]: 
+2012-09-21T02:52:40+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:52:40 +0000
+2012-09-21T02:52:40+00:00 app[web.1]: 
+2012-09-21T02:52:40+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=57ms status=304 bytes=0
+2012-09-21T02:52:40+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:52:40+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (30.5ms)
+2012-09-21T02:52:40+00:00 app[web.1]: Completed 200 OK in 44ms (Views: 31.2ms | ActiveRecord: 5.3ms)
+2012-09-21T02:52:57+00:00 app[web.1]: 
+2012-09-21T02:52:57+00:00 app[web.1]: 
+2012-09-21T02:52:57+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:52:53 +0000
+2012-09-21T02:52:57+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:52:57+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc49", "email"=>"guthrie@totalsem.049", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:52:57+00:00 app[web.1]: Completed 302 Found in 120ms (ActiveRecord: 0.0ms)
+2012-09-21T02:52:57+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/188
+2012-09-21T02:52:57+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=4786ms status=302 bytes=117
+2012-09-21T02:52:57+00:00 app[web.1]: 
+2012-09-21T02:52:57+00:00 app[web.1]: Started GET "/admin/users/188" for 98.197.178.211 at 2012-09-21 02:52:57 +0000
+2012-09-21T02:52:57+00:00 app[web.1]: 
+2012-09-21T02:52:58+00:00 app[web.1]: Completed 200 OK in 51ms (Views: 41.6ms | ActiveRecord: 6.3ms)
+2012-09-21T02:52:58+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:52:58+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (41.9ms)
+2012-09-21T02:52:58+00:00 app[web.1]:   Parameters: {"id"=>"188"}
+2012-09-21T02:52:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/188 dyno=web.1 queue=0 wait=0ms service=64ms status=200 bytes=6233
+2012-09-21T02:53:09+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=1371ms status=200 bytes=17361
+2012-09-21T02:53:09+00:00 app[web.1]: 
+2012-09-21T02:53:09+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:53:08 +0000
+2012-09-21T02:53:09+00:00 app[web.1]: 
+2012-09-21T02:53:09+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:53:09+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (289.4ms)
+2012-09-21T02:53:09+00:00 app[web.1]: Completed 200 OK in 306ms (Views: 285.2ms | ActiveRecord: 10.3ms)
+2012-09-21T02:53:14+00:00 app[web.1]: 
+2012-09-21T02:53:14+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:53:10 +0000
+2012-09-21T02:53:14+00:00 app[web.1]: 
+2012-09-21T02:53:14+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=3687ms status=304 bytes=0
+2012-09-21T02:53:14+00:00 app[web.1]: Completed 200 OK in 117ms (Views: 96.5ms | ActiveRecord: 5.2ms)
+2012-09-21T02:53:14+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:53:14+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (95.8ms)
+2012-09-21T02:53:27+00:00 app[web.1]: 
+2012-09-21T02:53:27+00:00 app[web.1]: 
+2012-09-21T02:53:27+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:53:27 +0000
+2012-09-21T02:53:27+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=92ms status=302 bytes=117
+2012-09-21T02:53:27+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc50", "email"=>"guthrie@totalsem.050", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:53:27+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/189
+2012-09-21T02:53:27+00:00 app[web.1]: Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+2012-09-21T02:53:27+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:53:27+00:00 app[web.1]: 
+2012-09-21T02:53:27+00:00 app[web.1]: 
+2012-09-21T02:53:27+00:00 app[web.1]: Started GET "/admin/users/189" for 98.197.178.211 at 2012-09-21 02:53:27 +0000
+2012-09-21T02:53:27+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:53:27+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (78.9ms)
+2012-09-21T02:53:27+00:00 app[web.1]: Completed 200 OK in 93ms (Views: 77.7ms | ActiveRecord: 12.2ms)
+2012-09-21T02:53:27+00:00 app[web.1]:   Parameters: {"id"=>"189"}
+2012-09-21T02:53:27+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/189 dyno=web.1 queue=0 wait=0ms service=158ms status=200 bytes=6230
+2012-09-21T02:53:34+00:00 app[web.1]: 
+2012-09-21T02:53:34+00:00 app[web.1]: 
+2012-09-21T02:53:34+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:53:34 +0000
+2012-09-21T02:53:34+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:53:34+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (468.0ms)
+2012-09-21T02:53:34+00:00 app[web.1]: Completed 200 OK in 508ms (Views: 463.9ms | ActiveRecord: 36.0ms)
+2012-09-21T02:53:34+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=548ms status=200 bytes=17361
+2012-09-21T02:53:36+00:00 app[web.1]: 
+2012-09-21T02:53:36+00:00 app[web.1]: 
+2012-09-21T02:53:36+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:53:36 +0000
+2012-09-21T02:53:36+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:53:36+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (30.1ms)
+2012-09-21T02:53:36+00:00 app[web.1]: Completed 200 OK in 40ms (Views: 31.9ms | ActiveRecord: 3.0ms)
+2012-09-21T02:53:36+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=56ms status=304 bytes=0
+2012-09-21T02:53:49+00:00 app[web.1]: 
+2012-09-21T02:53:49+00:00 app[web.1]: 
+2012-09-21T02:53:49+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:53:49 +0000
+2012-09-21T02:53:49+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc51", "email"=>"guthrie@totalsem.051", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:53:49+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/190
+2012-09-21T02:53:49+00:00 app[web.1]: Completed 302 Found in 44ms (ActiveRecord: 0.0ms)
+2012-09-21T02:53:49+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:53:49+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=56ms status=302 bytes=117
+2012-09-21T02:53:49+00:00 app[web.1]: 
+2012-09-21T02:53:49+00:00 app[web.1]: Started GET "/admin/users/190" for 98.197.178.211 at 2012-09-21 02:53:49 +0000
+2012-09-21T02:53:49+00:00 app[web.1]: 
+2012-09-21T02:53:49+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/190 dyno=web.1 queue=0 wait=0ms service=114ms status=200 bytes=6231
+2012-09-21T02:53:49+00:00 app[web.1]:   Parameters: {"id"=>"190"}
+2012-09-21T02:53:49+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (92.5ms)
+2012-09-21T02:53:49+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:53:49+00:00 app[web.1]: Completed 200 OK in 102ms (Views: 91.3ms | ActiveRecord: 6.1ms)
+2012-09-21T02:53:56+00:00 app[web.1]: 
+2012-09-21T02:53:56+00:00 app[web.1]: 
+2012-09-21T02:53:56+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:53:56 +0000
+2012-09-21T02:53:56+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:53:56+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (419.6ms)
+2012-09-21T02:53:56+00:00 app[web.1]: Completed 200 OK in 426ms (Views: 413.4ms | ActiveRecord: 9.4ms)
+2012-09-21T02:53:56+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=440ms status=200 bytes=17361
+2012-09-21T02:53:58+00:00 app[web.1]: 
+2012-09-21T02:53:58+00:00 app[web.1]: 
+2012-09-21T02:53:58+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:53:58 +0000
+2012-09-21T02:53:58+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:53:58+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (32.4ms)
+2012-09-21T02:53:58+00:00 app[web.1]: Completed 200 OK in 47ms (Views: 34.4ms | ActiveRecord: 3.2ms)
+2012-09-21T02:53:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=55ms status=304 bytes=0
+2012-09-21T02:54:12+00:00 app[web.1]: 
+2012-09-21T02:54:12+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:54:12 +0000
+2012-09-21T02:54:12+00:00 app[web.1]: 
+2012-09-21T02:54:12+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:54:12+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:54:12+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc52", "email"=>"guthrie@totalsem.052", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:54:12+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/191
+2012-09-21T02:54:12+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=37ms status=302 bytes=117
+2012-09-21T02:54:12+00:00 app[web.1]: 
+2012-09-21T02:54:12+00:00 app[web.1]: 
+2012-09-21T02:54:12+00:00 app[web.1]: Started GET "/admin/users/191" for 98.197.178.211 at 2012-09-21 02:54:12 +0000
+2012-09-21T02:54:12+00:00 app[web.1]:   Parameters: {"id"=>"191"}
+2012-09-21T02:54:12+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:54:12+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (33.1ms)
+2012-09-21T02:54:12+00:00 app[web.1]: Completed 200 OK in 40ms (Views: 32.1ms | ActiveRecord: 5.5ms)
+2012-09-21T02:54:12+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/191 dyno=web.1 queue=0 wait=0ms service=64ms status=200 bytes=6233
+2012-09-21T02:54:20+00:00 app[web.1]: 
+2012-09-21T02:54:20+00:00 app[web.1]: 
+2012-09-21T02:54:20+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:54:20 +0000
+2012-09-21T02:54:20+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:54:20+00:00 app[web.1]: Completed 200 OK in 278ms (Views: 264.4ms | ActiveRecord: 8.8ms)
+2012-09-21T02:54:20+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (262.2ms)
+2012-09-21T02:54:20+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=295ms status=200 bytes=17361
+2012-09-21T02:54:22+00:00 app[web.1]: 
+2012-09-21T02:54:22+00:00 app[web.1]: 
+2012-09-21T02:54:22+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:54:22 +0000
+2012-09-21T02:54:22+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:54:22+00:00 app[web.1]: Completed 200 OK in 275ms (Views: 235.7ms | ActiveRecord: 25.2ms)
+2012-09-21T02:54:22+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (235.0ms)
+2012-09-21T02:54:22+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=296ms status=304 bytes=0
+2012-09-21T02:54:35+00:00 app[web.1]: 
+2012-09-21T02:54:35+00:00 app[web.1]: 
+2012-09-21T02:54:35+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:54:35 +0000
+2012-09-21T02:54:35+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:54:35+00:00 app[web.1]: Completed 302 Found in 32ms (ActiveRecord: 0.0ms)
+2012-09-21T02:54:35+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc53", "email"=>"guthrie@totalsem.053", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:54:35+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/192
+2012-09-21T02:54:35+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=86ms status=302 bytes=117
+2012-09-21T02:54:35+00:00 app[web.1]: 
+2012-09-21T02:54:35+00:00 app[web.1]: 
+2012-09-21T02:54:35+00:00 app[web.1]: Started GET "/admin/users/192" for 98.197.178.211 at 2012-09-21 02:54:35 +0000
+2012-09-21T02:54:35+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/192 dyno=web.1 queue=0 wait=0ms service=56ms status=200 bytes=6234
+2012-09-21T02:54:35+00:00 app[web.1]:   Parameters: {"id"=>"192"}
+2012-09-21T02:54:35+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:54:35+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (35.1ms)
+2012-09-21T02:54:35+00:00 app[web.1]: Completed 200 OK in 43ms (Views: 34.1ms | ActiveRecord: 5.8ms)
+2012-09-21T02:54:42+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:54:42 +0000
+2012-09-21T02:54:42+00:00 app[web.1]: 
+2012-09-21T02:54:42+00:00 app[web.1]: 
+2012-09-21T02:54:43+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:54:43+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (291.6ms)
+2012-09-21T02:54:43+00:00 app[web.1]: Completed 200 OK in 306ms (Views: 287.8ms | ActiveRecord: 9.9ms)
+2012-09-21T02:54:43+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=320ms status=200 bytes=17361
+2012-09-21T02:54:44+00:00 app[web.1]: 
+2012-09-21T02:54:44+00:00 app[web.1]: 
+2012-09-21T02:54:44+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:54:44 +0000
+2012-09-21T02:54:44+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:54:44+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (34.9ms)
+2012-09-21T02:54:44+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 35.6ms | ActiveRecord: 2.9ms)
+2012-09-21T02:54:44+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=54ms status=304 bytes=0
+2012-09-21T02:54:57+00:00 app[web.1]: 
+2012-09-21T02:54:57+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:54:57 +0000
+2012-09-21T02:54:57+00:00 app[web.1]: 
+2012-09-21T02:54:57+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:54:57+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc54", "email"=>"guthrie@totalsem.054", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:54:57+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/193
+2012-09-21T02:54:57+00:00 app[web.1]: Completed 302 Found in 30ms (ActiveRecord: 0.0ms)
+2012-09-21T02:54:57+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=43ms status=302 bytes=117
+2012-09-21T02:54:57+00:00 app[web.1]: 
+2012-09-21T02:54:57+00:00 app[web.1]: 
+2012-09-21T02:54:57+00:00 app[web.1]: Started GET "/admin/users/193" for 98.197.178.211 at 2012-09-21 02:54:57 +0000
+2012-09-21T02:54:57+00:00 app[web.1]:   Parameters: {"id"=>"193"}
+2012-09-21T02:54:57+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:54:57+00:00 app[web.1]: Completed 200 OK in 86ms (Views: 77.2ms | ActiveRecord: 6.0ms)
+2012-09-21T02:54:57+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (78.7ms)
+2012-09-21T02:54:57+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/193 dyno=web.1 queue=0 wait=0ms service=97ms status=200 bytes=6231
+2012-09-21T02:55:03+00:00 app[web.1]: 
+2012-09-21T02:55:03+00:00 app[web.1]: 
+2012-09-21T02:55:03+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:55:03 +0000
+2012-09-21T02:55:04+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (263.3ms)
+2012-09-21T02:55:04+00:00 app[web.1]: Completed 200 OK in 272ms (Views: 258.8ms | ActiveRecord: 9.5ms)
+2012-09-21T02:55:04+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:55:04+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=284ms status=200 bytes=17361
+2012-09-21T02:55:05+00:00 app[web.1]: 
+2012-09-21T02:55:05+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:55:05 +0000
+2012-09-21T02:55:05+00:00 app[web.1]: 
+2012-09-21T02:55:05+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=44ms status=304 bytes=0
+2012-09-21T02:55:05+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:55:05+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 28.7ms | ActiveRecord: 3.4ms)
+2012-09-21T02:55:05+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (28.2ms)
+2012-09-21T02:55:18+00:00 app[web.1]: 
+2012-09-21T02:55:18+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:55:18 +0000
+2012-09-21T02:55:18+00:00 app[web.1]: 
+2012-09-21T02:55:18+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:55:18+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc55", "email"=>"guthrie@totalsem.055", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:55:18+00:00 app[web.1]: Completed 302 Found in 23ms (ActiveRecord: 0.0ms)
+2012-09-21T02:55:18+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/194
+2012-09-21T02:55:18+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=33ms status=302 bytes=117
+2012-09-21T02:55:18+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/194 dyno=web.1 queue=0 wait=0ms service=50ms status=200 bytes=6233
+2012-09-21T02:55:18+00:00 app[web.1]: 
+2012-09-21T02:55:18+00:00 app[web.1]: 
+2012-09-21T02:55:18+00:00 app[web.1]: Started GET "/admin/users/194" for 98.197.178.211 at 2012-09-21 02:55:18 +0000
+2012-09-21T02:55:18+00:00 app[web.1]:   Parameters: {"id"=>"194"}
+2012-09-21T02:55:18+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (30.3ms)
+2012-09-21T02:55:18+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:55:18+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 29.3ms | ActiveRecord: 5.9ms)
+2012-09-21T02:55:25+00:00 app[web.1]: 
+2012-09-21T02:55:25+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:55:25 +0000
+2012-09-21T02:55:25+00:00 app[web.1]: 
+2012-09-21T02:55:25+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:55:25+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (274.6ms)
+2012-09-21T02:55:25+00:00 app[web.1]: Completed 200 OK in 281ms (Views: 270.4ms | ActiveRecord: 7.6ms)
+2012-09-21T02:55:25+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=294ms status=200 bytes=17361
+2012-09-21T02:55:26+00:00 app[web.1]: 
+2012-09-21T02:55:26+00:00 app[web.1]: 
+2012-09-21T02:55:26+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:55:26 +0000
+2012-09-21T02:55:26+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:55:26+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (26.3ms)
+2012-09-21T02:55:26+00:00 app[web.1]: Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 2.4ms)
+2012-09-21T02:55:26+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=44ms status=304 bytes=0
+2012-09-21T02:55:43+00:00 app[web.1]: 
+2012-09-21T02:55:43+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:55:43 +0000
+2012-09-21T02:55:43+00:00 app[web.1]: 
+2012-09-21T02:55:43+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=49ms status=302 bytes=117
+2012-09-21T02:55:43+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/195
+2012-09-21T02:55:43+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:55:43+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:55:43+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc56", "email"=>"guthrie@totalsem.056", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:55:43+00:00 app[web.1]: 
+2012-09-21T02:55:43+00:00 app[web.1]: 
+2012-09-21T02:55:43+00:00 app[web.1]: Started GET "/admin/users/195" for 98.197.178.211 at 2012-09-21 02:55:43 +0000
+2012-09-21T02:55:43+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:55:43+00:00 app[web.1]:   Parameters: {"id"=>"195"}
+2012-09-21T02:55:43+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (35.1ms)
+2012-09-21T02:55:43+00:00 app[web.1]: Completed 200 OK in 97ms (Views: 33.3ms | ActiveRecord: 7.9ms)
+2012-09-21T02:55:43+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/195 dyno=web.1 queue=0 wait=0ms service=107ms status=200 bytes=6233
+2012-09-21T02:55:51+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:55:51 +0000
+2012-09-21T02:55:51+00:00 app[web.1]: 
+2012-09-21T02:55:51+00:00 app[web.1]: 
+2012-09-21T02:55:51+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:55:51+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (265.6ms)
+2012-09-21T02:55:51+00:00 app[web.1]: Completed 200 OK in 272ms (Views: 261.1ms | ActiveRecord: 7.9ms)
+2012-09-21T02:55:51+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=284ms status=200 bytes=17361
+2012-09-21T02:55:53+00:00 app[web.1]: 
+2012-09-21T02:55:53+00:00 app[web.1]: 
+2012-09-21T02:55:53+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:55:53 +0000
+2012-09-21T02:55:53+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:55:53+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (27.2ms)
+2012-09-21T02:55:53+00:00 app[web.1]: Completed 200 OK in 33ms (Views: 27.8ms | ActiveRecord: 2.9ms)
+2012-09-21T02:55:53+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=43ms status=304 bytes=0
+2012-09-21T02:56:06+00:00 app[web.1]: 
+2012-09-21T02:56:06+00:00 app[web.1]: 
+2012-09-21T02:56:06+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:56:06 +0000
+2012-09-21T02:56:07+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:56:07+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/196
+2012-09-21T02:56:07+00:00 app[web.1]: Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
+2012-09-21T02:56:07+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc57", "email"=>"guthrie@totalsem.057", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:56:07+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=36ms status=302 bytes=117
+2012-09-21T02:56:07+00:00 app[web.1]: 
+2012-09-21T02:56:07+00:00 app[web.1]: 
+2012-09-21T02:56:07+00:00 app[web.1]: Started GET "/admin/users/196" for 98.197.178.211 at 2012-09-21 02:56:07 +0000
+2012-09-21T02:56:07+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:56:07+00:00 app[web.1]:   Parameters: {"id"=>"196"}
+2012-09-21T02:56:07+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (28.8ms)
+2012-09-21T02:56:07+00:00 app[web.1]: Completed 200 OK in 58ms (Views: 48.5ms | ActiveRecord: 6.5ms)
+2012-09-21T02:56:07+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/196 dyno=web.1 queue=0 wait=0ms service=69ms status=200 bytes=6232
+2012-09-21T02:56:16+00:00 app[web.1]: 
+2012-09-21T02:56:16+00:00 app[web.1]: 
+2012-09-21T02:56:16+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:56:16 +0000
+2012-09-21T02:56:16+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:56:16+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (253.4ms)
+2012-09-21T02:56:16+00:00 app[web.1]: Completed 200 OK in 262ms (Views: 249.4ms | ActiveRecord: 7.7ms)
+2012-09-21T02:56:16+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=272ms status=200 bytes=17361
+2012-09-21T02:56:17+00:00 app[web.1]: 
+2012-09-21T02:56:17+00:00 app[web.1]: 
+2012-09-21T02:56:17+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:56:17 +0000
+2012-09-21T02:56:17+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:56:17+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (77.7ms)
+2012-09-21T02:56:17+00:00 app[web.1]: Completed 200 OK in 84ms (Views: 78.3ms | ActiveRecord: 2.5ms)
+2012-09-21T02:56:17+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=93ms status=304 bytes=0
+2012-09-21T02:56:30+00:00 app[web.1]: 
+2012-09-21T02:56:30+00:00 app[web.1]: 
+2012-09-21T02:56:30+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:56:30 +0000
+2012-09-21T02:56:31+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:56:31+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc58", "email"=>"guthrie@totalsem.058", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:56:31+00:00 app[web.1]: Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+2012-09-21T02:56:31+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/197
+2012-09-21T02:56:31+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=79ms status=302 bytes=117
+2012-09-21T02:56:31+00:00 app[web.1]: 
+2012-09-21T02:56:31+00:00 app[web.1]: 
+2012-09-21T02:56:31+00:00 app[web.1]: Started GET "/admin/users/197" for 98.197.178.211 at 2012-09-21 02:56:31 +0000
+2012-09-21T02:56:31+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:56:31+00:00 app[web.1]:   Parameters: {"id"=>"197"}
+2012-09-21T02:56:31+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (33.0ms)
+2012-09-21T02:56:31+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 32.0ms | ActiveRecord: 6.5ms)
+2012-09-21T02:56:31+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/197 dyno=web.1 queue=0 wait=0ms service=56ms status=200 bytes=6232
+2012-09-21T02:56:39+00:00 app[web.1]: 
+2012-09-21T02:56:39+00:00 app[web.1]: 
+2012-09-21T02:56:39+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:56:39 +0000
+2012-09-21T02:56:40+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (270.9ms)
+2012-09-21T02:56:40+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:56:40+00:00 app[web.1]: Completed 200 OK in 278ms (Views: 266.5ms | ActiveRecord: 8.5ms)
+2012-09-21T02:56:40+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=289ms status=200 bytes=17361
+2012-09-21T02:56:41+00:00 app[web.1]: 
+2012-09-21T02:56:41+00:00 app[web.1]: 
+2012-09-21T02:56:41+00:00 app[web.1]: Started GET "/admin/users/new" for 98.197.178.211 at 2012-09-21 02:56:41 +0000
+2012-09-21T02:56:41+00:00 app[web.1]: Processing by Admin::UsersController#new as HTML
+2012-09-21T02:56:41+00:00 app[web.1]: Completed 200 OK in 32ms (Views: 26.9ms | ActiveRecord: 2.6ms)
+2012-09-21T02:56:41+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/new.html.arb (26.3ms)
+2012-09-21T02:56:41+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/new dyno=web.1 queue=0 wait=0ms service=41ms status=304 bytes=0
+2012-09-21T02:56:54+00:00 app[web.1]: 
+2012-09-21T02:56:54+00:00 app[web.1]: 
+2012-09-21T02:56:54+00:00 app[web.1]: Started POST "/admin/users" for 98.197.178.211 at 2012-09-21 02:56:54 +0000
+2012-09-21T02:56:54+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=40ms status=302 bytes=117
+2012-09-21T02:56:54+00:00 app[web.1]: Processing by Admin::UsersController#create as HTML
+2012-09-21T02:56:54+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"njuK6LX7oOUyrknAkvMNpxf4wcCpxzTvidZxmX0bYrI=", "user"=>{"login"=>"guthriejc59", "email"=>"guthrie@totalsem.059", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+2012-09-21T02:56:54+00:00 app[web.1]: Completed 302 Found in 30ms (ActiveRecord: 0.0ms)
+2012-09-21T02:56:54+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/admin/users/198
+2012-09-21T02:56:54+00:00 app[web.1]: 
+2012-09-21T02:56:54+00:00 app[web.1]: 
+2012-09-21T02:56:54+00:00 app[web.1]: Started GET "/admin/users/198" for 98.197.178.211 at 2012-09-21 02:56:54 +0000
+2012-09-21T02:56:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users/198 dyno=web.1 queue=0 wait=0ms service=150ms status=200 bytes=6233
+2012-09-21T02:56:54+00:00 app[web.1]: Completed 200 OK in 136ms (Views: 119.0ms | ActiveRecord: 13.0ms)
+2012-09-21T02:56:54+00:00 app[web.1]: Processing by Admin::UsersController#show as HTML
+2012-09-21T02:56:54+00:00 app[web.1]:   Parameters: {"id"=>"198"}
+2012-09-21T02:56:54+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/show.html.arb (120.3ms)
+2012-09-21T02:57:17+00:00 app[web.1]: 
+2012-09-21T02:57:17+00:00 app[web.1]: 
+2012-09-21T02:57:17+00:00 app[web.1]: Started GET "/admin/users" for 98.197.178.211 at 2012-09-21 02:57:17 +0000
+2012-09-21T02:57:17+00:00 app[web.1]: Processing by Admin::UsersController#index as HTML
+2012-09-21T02:57:17+00:00 app[web.1]:   Rendered vendor/bundle/ruby/1.9.1/gems/activeadmin-0.5.0/app/views/active_admin/resource/index.html.arb (272.1ms)
+2012-09-21T02:57:17+00:00 app[web.1]: Completed 200 OK in 279ms (Views: 267.6ms | ActiveRecord: 8.7ms)
+2012-09-21T02:57:17+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/admin/users dyno=web.1 queue=0 wait=0ms service=295ms status=200 bytes=17361
+2012-09-21T04:06:48+00:00 heroku[web.1]: Idling
+2012-09-21T04:07:05+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-09-21T04:07:06+00:00 app[web.1]: [2012-09-21 04:07:06] ERROR SignalException: SIGTERM
+2012-09-21T04:07:06+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-09-21T04:07:15+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-09-21T04:07:15+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-09-21T04:07:17+00:00 heroku[web.1]: Process exited with status 137
+2012-09-21T04:07:17+00:00 heroku[web.1]: State changed from up to down
+2012-09-21T04:49:30+00:00 heroku[web.1]: Unidling
+2012-09-21T04:49:30+00:00 heroku[web.1]: State changed from down to starting
+2012-09-21T04:49:38+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 43344`
+2012-09-21T04:49:45+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-09-21T04:49:45+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-09-21T04:49:45+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-09-21T04:49:50+00:00 app[web.1]: [2012-09-21 04:49:50] INFO  WEBrick 1.3.1
+2012-09-21T04:49:50+00:00 app[web.1]: [2012-09-21 04:49:50] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+2012-09-21T04:49:50+00:00 app[web.1]: [2012-09-21 04:49:50] INFO  WEBrick::HTTPServer#start: pid=2 port=43344
+2012-09-21T04:49:51+00:00 heroku[web.1]: State changed from starting to up
+2012-09-21T04:49:52+00:00 app[web.1]: => Booting WEBrick
+2012-09-21T04:49:52+00:00 app[web.1]: => Rails 3.2.6 application starting in production on http://0.0.0.0:43344
+2012-09-21T04:49:52+00:00 app[web.1]: => Call with -d to detach
+2012-09-21T04:49:52+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-09-21T04:49:52+00:00 app[web.1]: 
+2012-09-21T04:49:52+00:00 app[web.1]: 
+2012-09-21T04:49:52+00:00 app[web.1]: Started GET "/" for 71.23.155.162 at 2012-09-21 04:49:52 +0000
+2012-09-21T04:49:53+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/ dyno=web.1 queue=0 wait=0ms service=145ms status=301 bytes=107
+2012-09-21T04:49:53+00:00 app[web.1]: Started GET "/video" for 71.23.155.162 at 2012-09-21 04:49:53 +0000
+2012-09-21T04:49:53+00:00 app[web.1]: 
+2012-09-21T04:49:53+00:00 app[web.1]: 
+2012-09-21T04:49:53+00:00 app[web.1]: Processing by VideoController#index as HTML
+2012-09-21T04:49:53+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/user_sessions/new
+2012-09-21T04:49:53+00:00 app[web.1]: Filter chain halted as :require_user rendered or redirected
+2012-09-21T04:49:53+00:00 app[web.1]: Completed 302 Found in 59ms (ActiveRecord: 0.0ms)
+2012-09-21T04:49:53+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video dyno=web.1 queue=0 wait=0ms service=103ms status=302 bytes=119
+2012-09-21T04:49:53+00:00 app[web.1]: 
+2012-09-21T04:49:53+00:00 app[web.1]: 
+2012-09-21T04:49:53+00:00 app[web.1]: Started GET "/user_sessions/new" for 71.23.155.162 at 2012-09-21 04:49:53 +0000
+2012-09-21T04:49:53+00:00 app[web.1]: Processing by UserSessionsController#new as HTML
+2012-09-21T04:49:53+00:00 app[web.1]: Compiled user_sessions.css  (24ms)  (pid 2)
+2012-09-21T04:49:53+00:00 app[web.1]:   Rendered user_sessions/new.html.erb within layouts/application (100.9ms)
+2012-09-21T04:49:53+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.4ms)
+2012-09-21T04:49:53+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.2ms)
+2012-09-21T04:49:53+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.2ms)
+2012-09-21T04:49:53+00:00 app[web.1]: Completed 200 OK in 215ms (Views: 213.4ms | ActiveRecord: 0.0ms)
+2012-09-21T04:49:53+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/user_sessions/new dyno=web.1 queue=0 wait=0ms service=236ms status=200 bytes=9498
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/reset.css dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=2319
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/text.css dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=2495
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/grid.css dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=8182
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/plugins/all/plugins.css dyno=web.1 queue=0 wait=0ms service=19ms status=200 bytes=148665
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/main.css dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=56897
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/mobile.css dyno=web.1 queue=0 wait=0ms service=12ms status=200 bytes=3872
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/base.css dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=3865
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/ie.css dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=2393
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/themes/switcher.css dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=1579
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/themes/theme_red.css dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=2448
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/themes/bg_wood.css dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=100
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/adminica/colours.css dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=4437
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/styles/themes/layout_fixed.css dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=214
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/jquery/jquery.js dyno=web.1 queue=0 wait=0ms service=24ms status=200 bytes=262281
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/modernizr/modernizr.js dyno=web.1 queue=0 wait=0ms service=49ms status=200 bytes=47706
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/jquery/jqueryui.js dyno=web.1 queue=0 wait=0ms service=72ms status=200 bytes=378375
+2012-09-21T04:49:54+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/prefixfree/prefixfree.js dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=10889
+2012-09-21T04:49:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/pjax/pjax.js dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=19147
+2012-09-21T04:49:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/isotope/isotope.js dyno=web.1 queue=0 wait=0ms service=12ms status=200 bytes=43093
+2012-09-21T04:49:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/autogrow/autogrow.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=1315
+2012-09-21T04:49:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/colorpicker/colorpicker.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=17175
+2012-09-21T04:49:55+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/cookie/cookie.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=1940
+2012-09-21T04:49:56+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/datatables/datatables.js dyno=web.1 queue=0 wait=0ms service=21ms status=200 bytes=227090
+2012-09-21T04:49:56+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/tinyeditor/tinyeditor.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=9053
+2012-09-21T04:49:56+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/fancybox/fancybox.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=34033
+2012-09-21T04:49:56+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/flot/flot_excanvas.js dyno=web.1 queue=0 wait=0ms service=13ms status=200 bytes=41784
+2012-09-21T04:49:56+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/flot/flot.js dyno=web.1 queue=0 wait=0ms service=17ms status=200 bytes=106797
+2012-09-21T04:49:57+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/flot/flot_resize.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=2458
+2012-09-21T04:49:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/flot/flot_pie.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=22589
+2012-09-21T04:49:58+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/flot/flot_pie_update.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=22999
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/knob/knob.js dyno=web.1 queue=0 wait=0ms service=126ms status=200 bytes=16916
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/fullcalendar/fullcalendar_gcal.js dyno=web.1 queue=0 wait=0ms service=294ms status=200 bytes=2777
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/fullcalendar/fullcalendar.js dyno=web.1 queue=0 wait=0ms service=342ms status=200 bytes=123938
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/multiselect/multiselect.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=11024
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/slidernav/slidernav.js dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=2171
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/select2/select2.js dyno=web.1 queue=0 wait=0ms service=17ms status=200 bytes=67761
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/smallipop/smallipop.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=9287
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/syntaxhighlighter/shCore.js dyno=web.1 queue=0 wait=0ms service=17ms status=200 bytes=72135
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/syntaxhighlighter/shBrushJScript.js dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=1649
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/syntaxhighlighter/shBrushXml.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=1998
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/tagit/tagit.js dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=15762
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/timepicker/timepicker.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=2808
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/tiptip/tiptip.js dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=6871
+2012-09-21T04:49:59+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/touchpunch/touchpunch.js dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=4309
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/uistars/uistars.js dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=8560
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/uitotop/uitotop.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=1738
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/uniform/uniform.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=19585
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/validation/validation.js dyno=web.1 queue=0 wait=0ms service=12ms status=200 bytes=38269
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_ui.js dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=11150
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_mobile.js dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=1778
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_datatables.js dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=3205
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_calendar.js dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=5410
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_gallery.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=879
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_charts.js dyno=web.1 queue=0 wait=0ms service=20ms status=200 bytes=9893
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_various.js dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=3399
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_wizard.js dyno=web.1 queue=0 wait=0ms service=52ms status=200 bytes=1813
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_forms.js dyno=web.1 queue=0 wait=0ms service=55ms status=200 bytes=7389
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/scripts/adminica/adminica_load.js dyno=web.1 queue=0 wait=0ms service=39ms status=200 bytes=1140
+2012-09-21T04:50:00+00:00 app[web.1]: 
+2012-09-21T04:50:00+00:00 app[web.1]: 
+2012-09-21T04:50:00+00:00 app[web.1]: Started GET "/assets/user_sessions-bc8ff4740ec21ad21eb08e890bb2bf65.css" for 71.23.155.162 at 2012-09-21 04:50:00 +0000
+2012-09-21T04:50:00+00:00 app[web.1]: Served asset /user_sessions-bc8ff4740ec21ad21eb08e890bb2bf65.css - 200 OK (0ms)
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/assets/user_sessions-bc8ff4740ec21ad21eb08e890bb2bf65.css dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=257
+2012-09-21T04:50:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/backgrounds/big_wood.jpg dyno=web.1 queue=0 wait=0ms service=19ms status=200 bytes=133328
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/interface/loading.gif dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=3943
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/icons/small/white/key_2.png dyno=web.1 queue=0 wait=0ms service=19ms status=200 bytes=3219
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/interface/video%20logo.png dyno=web.1 queue=0 wait=0ms service=16ms status=200 bytes=17149
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/icons/small/grey/locked.png dyno=web.1 queue=0 wait=0ms service=19ms status=200 bytes=3624
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/plugins/uitotop/ui.totop.png dyno=web.1 queue=0 wait=0ms service=19ms status=200 bytes=2311
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/plugins/themeroller/ui-icons_222222_256x240.png dyno=web.1 queue=0 wait=0ms service=16ms status=200 bytes=4369
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/plugins/themeroller/ui-icons_ffffff_256x240.png dyno=web.1 queue=0 wait=0ms service=12ms status=200 bytes=4369
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/plugins/themeroller/icon_sprite.png dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=3217
+2012-09-21T04:50:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/backgrounds/bg_squares.png dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=937
+2012-09-21T04:50:02+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=6ms status=200 bytes=0
+2012-09-21T04:50:45+00:00 app[web.1]: 
+2012-09-21T04:50:45+00:00 app[web.1]: 
+2012-09-21T04:50:45+00:00 app[web.1]: Started POST "/user_sessions" for 71.23.155.162 at 2012-09-21 04:50:45 +0000
+2012-09-21T04:50:45+00:00 app[web.1]: Processing by UserSessionsController#create as HTML
+2012-09-21T04:50:45+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"n9Nhn9vn5zT+kxGTO3hlu88jdguA1sz/rla4iJIj5I8=", "user_session"=>{"login"=>"michaelm@totalsem.com", "password"=>"[FILTERED]"}}
+2012-09-21T04:50:45+00:00 app[web.1]: Completed 302 Found in 192ms (ActiveRecord: 42.5ms)
+2012-09-21T04:50:45+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/video
+2012-09-21T04:50:45+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/user_sessions dyno=web.1 queue=0 wait=0ms service=228ms status=302 bytes=107
+2012-09-21T04:50:45+00:00 app[web.1]: 
+2012-09-21T04:50:45+00:00 app[web.1]: 
+2012-09-21T04:50:45+00:00 app[web.1]: Started GET "/video" for 71.23.155.162 at 2012-09-21 04:50:45 +0000
+2012-09-21T04:50:45+00:00 app[web.1]: Redirected to http://totalsemvideos.herokuapp.com/video/1
+2012-09-21T04:50:45+00:00 app[web.1]: Processing by VideoController#index as HTML
+2012-09-21T04:50:45+00:00 app[web.1]: Completed 302 Found in 123ms (ActiveRecord: 15.8ms)
+2012-09-21T04:50:45+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video dyno=web.1 queue=0 wait=0ms service=142ms status=302 bytes=109
+2012-09-21T04:50:45+00:00 app[web.1]: 
+2012-09-21T04:50:45+00:00 app[web.1]: 
+2012-09-21T04:50:45+00:00 app[web.1]: Started GET "/video/1" for 71.23.155.162 at 2012-09-21 04:50:45 +0000
+2012-09-21T04:50:45+00:00 app[web.1]: WARN: tilt autoloading 'coffee_script' in a non thread-safe way; explicit require 'coffee_script' suggested.
+2012-09-21T04:50:47+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T04:50:47+00:00 app[web.1]: Compiled video.js  (356ms)  (pid 2)
+2012-09-21T04:50:47+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.5ms)
+2012-09-21T04:50:47+00:00 app[web.1]: Compiled video.css  (6ms)  (pid 2)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.3ms)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.3ms)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.2ms)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (1647.9ms)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T04:50:47+00:00 app[web.1]: Completed 200 OK in 1701ms (Views: 953.1ms | ActiveRecord: 724.4ms)
+2012-09-21T04:50:47+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T04:50:47+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/1 dyno=web.1 queue=0 wait=0ms service=1723ms status=200 bytes=49744
+2012-09-21T04:50:48+00:00 app[web.1]: 
+2012-09-21T04:50:48+00:00 app[web.1]: 
+2012-09-21T04:50:48+00:00 app[web.1]: Started GET "/assets/video-84f02ed38bf6be54b96fd186a1cbf3a1.css" for 71.23.155.162 at 2012-09-21 04:50:48 +0000
+2012-09-21T04:50:48+00:00 app[web.1]: Served asset /video-84f02ed38bf6be54b96fd186a1cbf3a1.css - 200 OK (0ms)
+2012-09-21T04:50:48+00:00 app[web.1]: 
+2012-09-21T04:50:48+00:00 app[web.1]: 
+2012-09-21T04:50:48+00:00 app[web.1]: Started GET "/assets/video-77b133ec8ace1d1ff966a275b18b32db.js" for 71.23.155.162 at 2012-09-21 04:50:48 +0000
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/assets/video-84f02ed38bf6be54b96fd186a1cbf3a1.css dyno=web.1 queue=0 wait=0ms service=20ms status=200 bytes=305
+2012-09-21T04:50:48+00:00 app[web.1]: Served asset /video-77b133ec8ace1d1ff966a275b18b32db.js - 200 OK (0ms)
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/assets/video-77b133ec8ace1d1ff966a275b18b32db.js dyno=web.1 queue=0 wait=0ms service=24ms status=200 bytes=677
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/interface/profile.jpg dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=4895
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/icons/large/grey/computer_imac.png dyno=web.1 queue=0 wait=0ms service=9ms status=200 bytes=3703
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/icons/large/grey/mail.png dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=3938
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/icons/large/grey/users.png dyno=web.1 queue=0 wait=0ms service=22ms status=200 bytes=4395
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/interface/grabber-trans.png dyno=web.1 queue=0 wait=0ms service=18ms status=200 bytes=975
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/icons/large/grey/graph.png dyno=web.1 queue=0 wait=0ms service=17ms status=200 bytes=4019
+2012-09-21T04:50:48+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/interface/toggle.png dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=1034
+2012-09-21T04:50:49+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/misc/check.png dyno=web.1 queue=0 wait=0ms service=78ms status=200 bytes=595
+2012-09-21T04:50:49+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/images/interface/adminica_logo_black-trans.png dyno=web.1 queue=0 wait=0ms service=51ms status=200 bytes=13655
+2012-09-21T04:51:28+00:00 app[web.1]: 
+2012-09-21T04:51:28+00:00 app[web.1]: 
+2012-09-21T04:51:28+00:00 app[web.1]: Started GET "/video/136" for 71.23.155.162 at 2012-09-21 04:51:28 +0000
+2012-09-21T04:51:29+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T04:51:29+00:00 app[web.1]:   Parameters: {"id"=>"136"}
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (897.8ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T04:51:29+00:00 app[web.1]: Completed 200 OK in 912ms (Views: 257.0ms | ActiveRecord: 651.3ms)
+2012-09-21T04:51:29+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/136 dyno=web.1 queue=0 wait=0ms service=934ms status=200 bytes=49604
+2012-09-21T04:51:51+00:00 app[web.1]: 
+2012-09-21T04:51:51+00:00 app[web.1]: 
+2012-09-21T04:51:51+00:00 app[web.1]: Started GET "/video/5" for 71.23.155.162 at 2012-09-21 04:51:51 +0000
+2012-09-21T04:51:51+00:00 app[web.1]:   Parameters: {"id"=>"5"}
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (798.9ms)
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T04:51:51+00:00 app[web.1]: Completed 200 OK in 813ms (Views: 245.9ms | ActiveRecord: 563.4ms)
+2012-09-21T04:51:51+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/5 dyno=web.1 queue=0 wait=0ms service=831ms status=200 bytes=49812
+2012-09-21T04:57:56+00:00 app[web.1]: 
+2012-09-21T04:57:56+00:00 app[web.1]: 
+2012-09-21T04:57:56+00:00 app[web.1]: Started POST "/video/watched/5" for 71.23.155.162 at 2012-09-21 04:57:56 +0000
+2012-09-21T04:57:56+00:00 app[web.1]: Processing by VideoController#watched as */*
+2012-09-21T04:57:56+00:00 app[web.1]:   Parameters: {"id"=>"5"}
+2012-09-21T04:57:56+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2012-09-21T04:57:56+00:00 app[web.1]: Completed 200 OK in 46ms (Views: 12.7ms | ActiveRecord: 20.3ms)
+2012-09-21T04:57:56+00:00 app[web.1]:   Rendered text template (0.0ms)
+2012-09-21T04:57:56+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/video/watched/5 dyno=web.1 queue=0 wait=0ms service=58ms status=200 bytes=6
+2012-09-21T05:02:03+00:00 app[web.1]: 
+2012-09-21T05:02:03+00:00 app[web.1]: Started GET "/video/59" for 71.23.155.162 at 2012-09-21 05:02:03 +0000
+2012-09-21T05:02:03+00:00 app[web.1]: 
+2012-09-21T05:02:04+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 app[web.1]:   Parameters: {"id"=>"59"}
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (855.1ms)
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 app[web.1]: 
+2012-09-21T05:02:04+00:00 app[web.1]: Completed 200 OK in 868ms (Views: 249.0ms | ActiveRecord: 615.9ms)
+2012-09-21T05:02:04+00:00 app[web.1]: 
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 app[web.1]: Started GET "/video/59" for 71.23.155.162 at 2012-09-21 05:02:04 +0000
+2012-09-21T05:02:04+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T05:02:04+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/59 dyno=web.1 queue=0 wait=0ms service=892ms status=200 bytes=49673
+2012-09-21T05:02:05+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Parameters: {"id"=>"59"}
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (792.6ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T05:02:05+00:00 app[web.1]: Completed 200 OK in 816ms (Views: 197.5ms | ActiveRecord: 615.6ms)
+2012-09-21T05:02:05+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/59 dyno=web.1 queue=0 wait=0ms service=1434ms status=200 bytes=49673
+2012-09-21T05:04:16+00:00 app[web.1]: 
+2012-09-21T05:04:16+00:00 app[web.1]: 
+2012-09-21T05:04:16+00:00 app[web.1]: Started GET "/video/60" for 71.23.155.162 at 2012-09-21 05:04:16 +0000
+2012-09-21T05:04:17+00:00 app[web.1]:   Parameters: {"id"=>"60"}
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (757.2ms)
+2012-09-21T05:04:17+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T05:04:17+00:00 app[web.1]: Completed 200 OK in 770ms (Views: 207.5ms | ActiveRecord: 559.7ms)
+2012-09-21T05:04:17+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/60 dyno=web.1 queue=0 wait=0ms service=790ms status=200 bytes=49716
+2012-09-21T05:05:59+00:00 app[web.1]: 
+2012-09-21T05:05:59+00:00 app[web.1]: 
+2012-09-21T05:05:59+00:00 app[web.1]: Started GET "/video/42" for 71.23.155.162 at 2012-09-21 05:05:59 +0000
+2012-09-21T05:06:00+00:00 app[web.1]: 
+2012-09-21T05:06:00+00:00 app[web.1]: Started GET "/video/42" for 71.23.155.162 at 2012-09-21 05:06:00 +0000
+2012-09-21T05:06:00+00:00 app[web.1]: 
+2012-09-21T05:06:00+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (788.6ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Parameters: {"id"=>"42"}
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.1ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Parameters: {"id"=>"42"}
+2012-09-21T05:06:00+00:00 app[web.1]: Completed 200 OK in 801ms (Views: 201.3ms | ActiveRecord: 597.1ms)
+2012-09-21T05:06:00+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T05:06:00+00:00 app[web.1]: Processing by VideoController#show as HTML
+2012-09-21T05:06:00+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/42 dyno=web.1 queue=0 wait=0ms service=826ms status=200 bytes=49628
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered components/_topbar.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered components/_sidebar.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered components/_stackbar.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered video/show.html.erb within layouts/application (838.1ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered components/_navigation.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered dialogs/_dialog_register.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered dialogs/_dialog_delete.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]:   Rendered dialogs/_dialog_logout.html.erb (0.0ms)
+2012-09-21T05:06:01+00:00 app[web.1]: Completed 200 OK in 851ms (Views: 242.3ms | ActiveRecord: 605.5ms)
+2012-09-21T05:06:01+00:00 heroku[router]: GET totalsemvideos.herokuapp.com/video/42 dyno=web.1 queue=0 wait=0ms service=1516ms status=200 bytes=49628
+2012-09-21T05:11:15+00:00 app[web.1]: 
+2012-09-21T05:11:15+00:00 app[web.1]: 
+2012-09-21T05:11:15+00:00 app[web.1]: Started POST "/video/watched/42" for 71.23.155.162 at 2012-09-21 05:11:15 +0000
+2012-09-21T05:11:15+00:00 app[web.1]:   Parameters: {"id"=>"42"}
+2012-09-21T05:11:15+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 10.5ms)
+2012-09-21T05:11:15+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2012-09-21T05:11:15+00:00 app[web.1]: Processing by VideoController#watched as */*
+2012-09-21T05:11:15+00:00 app[web.1]:   Rendered text template (0.0ms)
+2012-09-21T05:11:15+00:00 heroku[router]: POST totalsemvideos.herokuapp.com/video/watched/42 dyno=web.1 queue=0 wait=0ms service=86ms status=200 bytes=6

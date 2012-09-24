@@ -2,6 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.welcome_alert {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.course-name {
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+
+.alert-link {
+	color: white;
+	text-decoration: underline;
+}
+
+.featuring {
+	font-style:italic;
+}
+
+.welcome-button {
+	margin-bottom: 10px;
+}
+
 .welcome-banner {
   width: 720px;
   height: 200px;
@@ -10,11 +33,9 @@
   left: 10px;
 }
 
-.available-series {
-  position: absolute;
-  top: 275px;
-  left: 15px;
-  font-size: 2.0em;
+.available {
+  font-size: 1.5em;
+  text-align:center;
 }
 
 .welcome-page .sign-in {
@@ -79,5 +100,5 @@ ul.course-info {
 
 #sidebar {
   position: absolute;
-  left: 80px;
+  left: 0;
 }

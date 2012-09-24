@@ -1523,9 +1523,8 @@ button,
 .button {
   padding: 5px;
   margin-right: 5px;
-  margin-bottom: 5px;
   float: left;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   line-height: 22px;
   position: relative;
   text-align: center;

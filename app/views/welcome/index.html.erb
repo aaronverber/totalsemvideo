@@ -9,18 +9,32 @@
     
     <div id="main_container" class="main_container container_16 clearfix">
       <%= render "components/navigation" %>
-      <div class="box grid_16 welcome-page">
-	<h1>Welcome to the Total Seminars Video Hub!</h1>
+<div class="alert alert_grey welcome_alert">
+<img width="24" height="24" src="images/icons/small/white/alert_2.png"><strong>Welcome to the Total Seminars Video Hub!</strong> If you haven't signed in yet, please <a class="alert-link" href="/user_sessions/new">sign in here</a>.</div>
 	<!--<a href="#" class="sign-in">Sign In</a>-->
-	<h2>Available Courses</h2>
-	<h3>CompTIA A+ 220-801/220-802 <span class="italic">featuring Mike Meyers</span></h3>
-	<p>Filmed in an episodic format designed to optimize your learning experience, the new Mike Meyers CompTIA A+ video will fascinate and engage you. With substantive technical content and laugh-out-loud segments, this video series takes you on a great ride as you prepare for the soon-to-be released CompTIA A+ certification exams 220-801 and 220-802.<br><a href="http://totalsemvideos.herokuapp.com/video/1">Try the demo today!</a><br><a href="http://www.totalsem.com/store/mike-meyers-a-video-series/">Buy now!</a></p>
-	<h3>CompTIA Network+ N10-005 <span class="italic">featuring Mike Meyers</span></h3>
-	<p>Filmed in an episodic format designed to optimize your learning experience, the new Mike Meyers CompTIA Network+ video will fascinate and engage you. With substantive technical content and laugh-out-loud segments, this video takes you on a great ride as you prepare for the CompTIA Network+ certification!</p>
-	    <a href="#">Coming Soon</a>
-	  </li>
-	</ul>
+<div class="box grid_16" style="opacity: 1;">
+	<div class="box_head available">Available Courses</div>
+		<div class="block lines" style="opacity: 1;">
+			<div class="columns clearfix">
+				<div class="col_50 no_border_top">
+					<div class="section">
+					<div class="course-name"><h2>License to Tech: CompTIA A+ Certification Video Series</h2></div>
+					<img style="margin-left: -15px; margin-bottom: 10px" width=384px height=220px src="/images/interface/aplusscreen.png">
+					<p><strong>Mike Meyers presents his latest and greatest video series,</strong> License to Tech: CompTIA A+, featuring over 200 episodes and 20+ hours of training. With substantive technical content and laugh-out-loud segments, this video series takes you on a great ride as you prepare for the soon-to-be released CompTIA A+ certification exams 220-801 and 220-802.</p>
+					<a href="http://videos.totalsem.com/video/1" class="button green welcome-button">Free Demo</a><a href="http://dev.totalsem.com/store/mike-meyers-a-video-series/" class="button red welcome-button">Buy the Course</a>
+				</div>
+				</div>
+				<div class="col_50 no_border_top">
+					<div class="section">
+					<div class="course-name"><h2>License to Tech: CompTIA Network+ Certification Video Series</h2></div>
+					<img style="margin-left: -15px; margin-bottom: 10px" width=384px height=220px src="/images/interface/netplusscreen.jpg">
+					<p><strong>With his usual wit and wizardy, Mike Meyers takes you deep</strong> inside network technology with his next great video series, License to Tech: Network+. Learn everything you need to know to pass the exam and become a great network technician!</p>
+					<p style="font-style:italic;">Coming soon!</p>
+				</div>
+				</div>
+			</div>
+		</div>
       </div>
     </div>
-  </div>
+      </div>
 </div>

@@ -1,0 +1,86 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.welcome-banner {
+  width: 720px;
+  height: 200px;
+  position: absolute;
+  top: 55px;
+  left: 10px;
+}
+
+.available-series {
+  position: absolute;
+  top: 275px;
+  left: 15px;
+  font-size: 2.0em;
+}
+
+.welcome-page .sign-in {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 2em;
+}
+
+.user_box .sign-in {
+  font-size: 2em;
+  margin-left: 40px;
+  color:white;
+}
+
+.welcome-page .title {
+  position: absolute;
+  top: 15px;
+  left: 10px;  
+  font-size: 2.5em;
+}
+
+.welcome-page{
+  position: relative;
+  height: 750px;
+}
+
+ul.course-info {
+  list-style-type: none;
+  position: absolute;
+  top: 315px;
+  width: 700px;
+  left: 10px;
+  
+}
+
+.welcome-page ul li {
+  position: relative;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.welcome-page ul li img {
+  width: 150px;
+  height: 100px;
+}
+
+.welcome-page ul li h3 {
+  position: absolute;
+  left: 160px;
+  top: 0px;
+}
+
+.welcome-page ul li p {
+  position: absolute;
+  left: 160px;
+  top: 20px;
+}
+
+.welcome-page ul li a {
+  position: absolute;
+  bottom: 0px;
+  left: 160px;
+}
+
+#sidebar {
+  position: absolute;
+  left: 80px;
+}

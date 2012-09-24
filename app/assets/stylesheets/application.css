@@ -1,6 +1,4 @@
 /* ...
- *= require_self
- *= require_tree .
  *= require adminica/reset.css
  *= require plugins/all/plugins.css
  *= require adminica/text.css
@@ -14,4 +12,6 @@
  *= require themes/bg_wood.css
  *= require adminica/colours.css
  *= require themes/layout_fixed.css
+ *= require_self
+ *= require_tree .
  */

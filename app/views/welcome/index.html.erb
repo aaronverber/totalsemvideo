@@ -1,0 +1,34 @@
+<% content_for :head do %>
+<%= javascript_include_tag params[:controller] %> 
+<%= stylesheet_link_tag params[:controller] %>
+<% end %>
+
+<div id="pjax">
+  <div id="wrapper" data-adminica-nav-top="1" data-adminica-side-top="1">
+    <%= render "components/sidebar" %>
+    
+    <div id="main_container" class="main_container container_16 clearfix">
+      <%= render "components/navigation" %>
+      <div class="box grid_16 welcome-page">
+	<h1 class="title">Welcome to the Total Seminars Video Hub!</h1>
+	<!--<a href="#" class="sign-in">Sign In</a>-->
+	<img class="welcome-banner" />
+	<h3 class="available-series">Available Series</h3>
+	<ul class="course-info">
+	  <li class="course-info">
+	    <img class="course-info" />
+	    <h3 class="course-info">CompTIA A+ 220-801/220-802 <span class="italic">featuring Mike Myers</span></h3>
+	    <p class="course-info">Donec auctor, odio quis ultrices aliquet, urna nunc viverra lectus, commodo pellentesque arcu lacus at enim. Quisque ultrices, lorem vitae sagittis posuere, metus velit dignissim odio, at faucibus velit nibh tristique eros. Ut vel quam velit, ac posuere leo. Donec sollicitudin, enim at sollicitudin fringilla, diam tortor fermentum erat, ac lobortis lacus purus ornare est. Proin laoreet arcu enim, non porta sapien. In sollicitudin velit sed leo dictum commodo. Phasellus ac felis arcu. Nam quis turpis tortor. Vestibulum quis ipsum risus, sit amet congue nunc. Integer consectetur massa id mauris auctor tristique dictum enim commodo. Pellentesque semper lectus eu quam pharetra vitae egestas odio eleifend. Vestibulum feugiat pretium vestibulum. Maecenas convallis porttitor tempus. Nunc sed quam purus, sit amet pulvinar eros. Cras ornare, neque sed suscipit fermentum, dolor augue sollicitudin leo, quis lacinia lorem ante vitae ante.</p>
+	    <a class="course-info" href="#">Buy Now</a>
+	  </li>
+	  <li class="course-info">
+	    <img class="course-info" />
+	    <h3 class="course-info">CompTIA A+ 220-801/220-802 <span class="italic">featuring Mike Myers</span></h3>
+	    <p class="course-info">Donec auctor, odio quis ultrices aliquet, urna nunc viverra lectus, commodo pellentesque arcu lacus at enim. Quisque ultrices, lorem vitae sagittis posuere, metus velit dignissim odio, at faucibus velit nibh tristique eros. Ut vel quam velit, ac posuere leo. Donec sollicitudin, enim at sollicitudin fringilla, diam tortor fermentum erat, ac lobortis lacus purus ornare est. Proin laoreet arcu enim, non porta sapien. In sollicitudin velit sed leo dictum commodo. Phasellus ac felis arcu. Nam quis turpis tortor. Vestibulum quis ipsum risus, sit amet congue nunc. Integer consectetur massa id mauris auctor tristique dictum enim commodo. Pellentesque semper lectus eu quam pharetra vitae egestas odio eleifend. Vestibulum feugiat pretium vestibulum. Maecenas convallis porttitor tempus. Nunc sed quam purus, sit amet pulvinar eros. Cras ornare, neque sed suscipit fermentum, dolor augue sollicitudin leo, quis lacinia lorem ante vitae ante.</p>
+	    <a class="course-info" href="#">Buy Now</a>
+	  </li>
+	</ul>
+      </div>
+    </div>
+  </div>
+</div>

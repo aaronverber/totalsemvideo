@@ -4,14 +4,13 @@
 
 <% end %>
 
+
 <%
    agent = UserAgent.parse(request.user_agent)
    browser = agent.browser
    mobile = agent.mobile?
    platform = agent.platform
    %>
-
-<div id="episode-id" style="display:none"><%= @episode.id %></div>
 
 <div id="pjax">
   <div id="wrapper" data-adminica-nav-top="1" data-adminica-side-top="1">
@@ -21,35 +20,10 @@
     
     <div id="main_container" class="main_container container_16 clearfix">
       <%= render "components/navigation" %>
-      <div class="box grid_16 video-panel">
-	<% if @episode.video_url.nil? %>
-	<h2 style="margin:10px">No Video Has Been Uploaded</h2>
-	<% else %>
-	<video id="tsem-video-player" 
-	       controls="controls" width="768" height="432" autoplay="autoplay">
-	  <source src="<%= @episode.video_url -%>" type="video/mp4" />
-	  <source src="<%= oggify(@episode.video_url) -%>" type="video/ogg" />
-	  <object type="application/x-shockwave-flash" data="http://player.longtailvideo.com/player.swf" width="720" height="360">
-	    <param name="movie" value="http://player.longtailvideo.com/player.swf" />
-	    <param name="allowFullScreen" value="true" />
-	    <param name="wmode" value="transparent" />
-	    <param name="flashVars" value="controlbar=over&amp;file=<%= flashify(@episode.video_url) -%>" />
-	    <span title="No video playback capabilities, please download the video below">Unable to playback video</span>
-	  </object>
-	</video>
-	<% end %>
+      <div class="box grid_16 video-panel notfree">
+	<h2>This Video is Not Available for Free</h2>
+	<a href="http://www.totalsem.com/store/mike-myers-a-video-series">Purchase...</a>
       </div>
-      <div id="episode-description"  class="box grid_16">
-      	<div class="block">
-      	  <div class="section">
-      	    <h3>
-      	      <%= @chapter.name -%> | <%= @episode.name -%>
-      	    </h3>
-	    <p><%= @episode.description -%></p>
-      	  </div>
-      	</div>
-      </div>
-
       <div id="chapters" class="box grid_8">
 	<h2 class="box_head">A+ Chapters</h2>
 	<div class="controls">

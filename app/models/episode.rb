@@ -1,5 +1,5 @@
 class Episode < ActiveRecord::Base
-  attr_accessible :name, :number, :length, :description, :video_url, :chapter, :chapter_id, :watchedm
+  attr_accessible :name, :number, :length, :description, :video_url, :chapter, :chapter_id, :watched, :free
   belongs_to :chapter
 
   has_many :watcheds
@@ -8,5 +8,6 @@ class Episode < ActiveRecord::Base
   def watched?(user)
     Watched.where({:user_id => user.id, :episode_id => id}).count > 0
   end
+
     
 end

@@ -35,3 +35,26 @@
 #tsem-video-overlay {
   display:none;
 }
+
+.notfree {
+  color:red;
+}
+
+.notfree a {
+  color:#AAAAAA;
+}
+
+.notfree.video-panel {
+  width:768px;
+  height:432px;
+}
+
+.notfree.video-panel h2 {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.notfree.video-panel a {
+  margin-left: 305px;
+  font-size: 1.5em;
+}

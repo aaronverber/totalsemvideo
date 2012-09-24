@@ -14,4 +14,21 @@ module VideoHelper
       "display:none;"
     end
   end
+
+  def class_for_free(episode)
+    return "free" unless @user.nil?
+    if episode.free 
+      return "free"
+    else
+      return "notfree"
+    end
+  end
+
+  def link_for_free(episode)
+    if !@user.nil? || episode.free 
+      "/video/#{episode.id}" 
+    else
+      "/notfree/#{episode.id}"
+    end
+  end
 end

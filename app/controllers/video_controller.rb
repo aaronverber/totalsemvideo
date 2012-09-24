@@ -1,4 +1,7 @@
 class VideoController < ApplicationController
+  before_filter :require_user, :except => [:show, :notfree]
+
+
   def index
     course = find_course
     chapters = course.chapters
@@ -6,7 +9,17 @@ class VideoController < ApplicationController
   end
 
   def show
-    @user = current_user
+    if current_user.nil?
+      if Episode.find(params[:id]).free
+        @show_free = true
+        @user = nil
+      else
+        redirect_to "/notfree"
+      end
+    else
+      @show_free = false
+      @user = current_user
+    end
     @course = find_course
     @chapters = @course.chapters
     @episode = Episode.find(params[:id])
@@ -14,6 +27,8 @@ class VideoController < ApplicationController
   end
 
   def watched
+    return false if @user.nil?
+
     @episode = Episode.find(params[:id])
     @user = current_user
 
@@ -21,6 +36,13 @@ class VideoController < ApplicationController
     w.save
 
     render :text => "thanks"
+  end
+
+  def notfree
+    @course = find_course
+    @chapters = @course.chapters
+    @episode = Episode.find(params[:id])
+    @chapter = Chapter.find(@episode.chapter_id)
   end
 
   private

@@ -2,10 +2,10 @@
   <div class="cog">+</div>
 
   <a href="/" class="logo"><span>Total Seminars Video</span></a>
-  <% if @user && @user.login %>
+  <% if @user %>
   <div class="user_box dark_box clearfix">
     <img src="/images/interface/profile.jpg" width="55" alt="Profile Pic" />
-    <h2><%= !@user.nil? -%></h2>
+    <h2><%= @user.login -%></h2>
     <ul>
       <li><a href="/logout" class="dialog_button" data-dialog="dialog_logout">Logout</a></li>
     </ul>

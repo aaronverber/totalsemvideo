@@ -35,7 +35,7 @@
 	  <div class="block">
 	    <div class="section">
 	      <ol>
-		<% for chapter in @chapters %>
+		<% for chapter in @chapters.sort_by {|x| x.name} %>
 		<li><a href="#" class="chapter_link"><%= chapter.name -%></a></li>
 		<% end %>
 	      </ol>

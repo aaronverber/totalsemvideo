@@ -61,7 +61,7 @@
 	  <div class="block">
 	    <div class="section">
 	      <ol>
-		<% for chapter in @chapters.sort_by {|x| x.number}.reverse %>
+		<% for chapter in @chapters.sort_by {|x| x.number} %>
 		<li><a href="#" class="chapter_link"><%= chapter.name -%></a></li>
 		<% end %>
 	      </ol>

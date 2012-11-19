@@ -15,5 +15,6 @@ ActiveAdmin.register User do
     end
     column :login
     column :email
+    column :courses
   end
 end

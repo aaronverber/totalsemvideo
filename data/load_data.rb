@@ -5,6 +5,10 @@ u.password = "foobarbaz"
 u.password_confirmation = "foobarbaz"
 u.save
 
+a = AdminUser.new
+a.email = "default_user@nonsense.com"
+a.password = "foobarbaz"
+a.save
 
 course = Course.find_or_create_by_name("A+")
 course.save

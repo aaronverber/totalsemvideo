@@ -5,7 +5,9 @@ class User < ActiveRecord::Base
 
   attr_accessible :login, :email, :password, :password_confirmation
   has_many :watcheds
+  has_many :course_permissions
   has_many :videos, :through => :watcheds
+  has_many :courses, :through => :course_permissions
   
   validates :email, :uniqueness => true, :allow_nil => true
 

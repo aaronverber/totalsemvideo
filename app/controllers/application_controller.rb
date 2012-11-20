@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  before_filter :require_user
+  before_filter :require_user, :load_courses
 
   private
   def current_user_session
@@ -38,5 +38,9 @@ class ApplicationController < ActionController::Base
   def redirect_back_or_default(default)
     redirect_to(session[:return_to] || default)
     session[:return_to] = nil
+  end
+
+  def load_courses
+    @courses = Course.all()
   end
 end

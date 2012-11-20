@@ -25,10 +25,6 @@ module VideoHelper
   end
 
   def link_for_free(episode)
-    if !@user.nil? || episode.free 
-      "/video/#{episode.id}" 
-    else
-      "/notfree/#{episode.id}"
-    end
+    "/video/#{episode.id}" 
   end
 end

@@ -64,8 +64,8 @@ Totalsemvideo::Application.routes.draw do
   resources :users
   resources :user_sessions
   match 'logout' => 'user_sessions#logout'
+  match 'notfree' => 'video#notfree'
   match 'video/watched/:id' => 'video#watched'
-  match 'notfree/:id' => "video#notfree"
   match 'shopp/add_user' => 'shopp#add_user'
   match 'shopp/add_course_access' => 'shopp#add_course_access'
 

@@ -26,6 +26,9 @@ class VideoController < ApplicationController
     @chapter = Chapter.find(@episode.chapter_id)
   end
 
+  def notfree
+  end
+
   def watched
     return false if @user.nil?
 
@@ -36,13 +39,6 @@ class VideoController < ApplicationController
     w.save
 
     render :text => "thanks"
-  end
-
-  def notfree
-    @course = find_course
-    @chapters = @course.chapters
-    @episode = Episode.find(params[:id])
-    @chapter = Chapter.find(@episode.chapter_id)
   end
 
   private

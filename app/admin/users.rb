@@ -6,12 +6,6 @@ ActiveAdmin.register User do
       f.input :password
       f.input :password_confirmation
     end
-    # f.has_many :courses do |course|
-    #   course.inputs "Courses" do
-    #     course.input :name
-    #     #repeat as necessary for all fields
-    #   end
-    # end
     f.buttons
   end
 
@@ -27,13 +21,6 @@ ActiveAdmin.register User do
     attributes_table do
       row :login
       row :email
-      panel "Courses" do
-        table_for user.courses do
-          column "name" do |course|
-            course.name
-          end
-        end
-      end
     end
   end
 end

@@ -13,8 +13,6 @@ class User < ActiveRecord::Base
   
   validates :email, :uniqueness => true, :allow_nil => true
 
-  accepts_nested_attributes_for :courses
-
   def self.find_by_anything(login)
     find_by_login(login) || find_by_email(login) || find_by_id(login)
   end

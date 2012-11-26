@@ -9,8 +9,13 @@
     
     <div id="main_container" class="main_container container_16 clearfix">
       <%= render "components/navigation" %>
+      <% if !@current_user %>
       <div class="alert alert_grey welcome_alert">
-	<img width="24" height="24" src="images/icons/small/white/alert_2.png"><strong>Welcome to the Total Seminars Video Hub!</strong> If you haven't signed in yet, please <a class="alert-link" href="/user_sessions/new">sign in here</a>.</div>
+	<img width="24" height="24" src="images/icons/small/white/alert_2.png">
+	<strong>Welcome to the Total Seminars Video Hub!</strong>
+	If you haven't signed in yet, please <a class="alert-link" href="/user_sessions/new">sign in here</a>.
+      </div>
+      <% end %>
       <!--<a href="#" class="sign-in">Sign In</a>-->
       <div class="box grid_16" style="opacity: 1;">
 	<div class="box_head available">Available Courses</div>
@@ -21,7 +26,7 @@
 		<div class="course-name"><h2>License to Tech: CompTIA A+ Certification Video Series</h2></div>
 		<img style="margin-left: -15px; margin-bottom: 10px" width=384px height=220px src="/images/interface/aplusscreen.png">
 		<p><strong>Mike Meyers presents his latest and greatest video series,</strong> License to Tech: CompTIA A+, featuring over 200 episodes and 20+ hours of training. With substantive technical content and laugh-out-loud segments, this video series takes you on a great ride as you prepare for the soon-to-be released CompTIA A+ certification exams 220-801 and 220-802.</p>
-		<a href="/course/a+/video/1" class="button green welcome-button">Free Demo</a><a href="http://www.totalsem.com/store/mike-meyers-a-video-series/" class="button red welcome-button">Buy the Course</a>
+		<a href="/course/A+/video/1" class="button green welcome-button">Free Demo</a><a href="http://www.totalsem.com/store/mike-meyers-a-video-series/" class="button red welcome-button">Buy the Course</a>
 	      </div>
 	    </div>
 	    <div class="col_50 no_border_top">

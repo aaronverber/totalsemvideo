@@ -19,7 +19,7 @@
   
   <ul id="side_links" class="side_links" style="margin-bottom:0;">
     <% for course in @all_courses %>
-    <li><a href="/course/a+/video/1"><%= course.name -%></a></li>
+    <li><a href="/course/<%= course.name -%>/video/1"><%= course.name -%></a></li>
     <% end %>
     <li><a href="http://www.totalsem.com">Back to Total Seminars</a></li>
   </ul>

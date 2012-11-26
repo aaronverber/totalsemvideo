@@ -18,9 +18,9 @@
   <!-- <div id="search_side" class="dark_box"><form><input class="" type="text" placeholder="Search Videos..."></form></div> -->
   
   <ul id="side_links" class="side_links" style="margin-bottom:0;">
-		<% for course in @courses %>
-		<li><a href="/video/1"><%= course.name -%></a></li>
-		<% end %>
+    <% for course in @all_courses %>
+    <li><a href="/course/a+/video/1"><%= course.name -%></a></li>
+    <% end %>
     <li><a href="http://www.totalsem.com">Back to Total Seminars</a></li>
   </ul>
 </div><!-- #sidebar -->

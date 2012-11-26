@@ -9,7 +9,7 @@ class VideoController < ApplicationController
 
   def show
     @user = current_user
-    @course = find_course
+    @course = find_course(params[:course_id])
     @chapters = @course.chapters
     @episode = Episode.find(params[:id])
     @chapter = Chapter.find(@episode.chapter_id)
@@ -29,8 +29,8 @@ class VideoController < ApplicationController
 
   private
   
-  def find_course
-    session[:course] || Course.first(:conditions => {:name => 'A+'})
+  def find_course(course)
+    Course.first(:conditions => {:name => course})
   end
 
 end

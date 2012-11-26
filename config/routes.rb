@@ -60,14 +60,13 @@ Totalsemvideo::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
   root :to => "welcome#index"
-  resources :video
+  match 'logout' => 'user_sessions#logout'
+
+  resources :course do
+    resources :video
+  end
+
   resources :users
   resources :user_sessions
-  match 'logout' => 'user_sessions#logout'
-  match 'notfree' => 'video#notfree'
-  match 'video/watched/:id' => 'video#watched'
-  match 'shopp/add_user' => 'shopp#add_user'
-  match 'shopp/add_course_access' => 'shopp#add_course_access'
-
 
 end

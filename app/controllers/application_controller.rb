@@ -41,6 +41,6 @@ class ApplicationController < ActionController::Base
   end
 
   def load_courses
-    @courses = Course.all()
+    @all_courses = Course.all()
   end
 end

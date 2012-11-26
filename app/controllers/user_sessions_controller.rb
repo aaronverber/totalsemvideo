@@ -10,7 +10,7 @@ class UserSessionsController < ApplicationController
     @user_session = UserSession.new(params[:user_session])
     if @user_session.save
       flash[:notice] = "Login succesful!"
-      redirect_to("/")
+      redirect_back_or_default("/")
     else
       flash[:alert] = "Could not login!"
       redirect_to("/user_sessions/new")

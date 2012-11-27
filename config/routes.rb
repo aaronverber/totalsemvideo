@@ -62,6 +62,9 @@ Totalsemvideo::Application.routes.draw do
   root :to => "welcome#index"
   match 'logout' => 'user_sessions#logout'
 
+  match 'shopp/add_user' => 'shopp#add_user'
+  match 'shopp/add_course_access' => 'shopp#add_course_access'
+
   resources :course do
     resources :video
   end

@@ -4,22 +4,20 @@ class ShoppController < ApplicationController
   def add_user
     logger.info 'got an add_user request'
     if request.post?
-      begin 
-        logger.info "received"
-        user_json = decode_raw(params.keys[0])
-        logger.info user_json
-        if not user_json.has_key? "name"
-          logger.error "missing user name"
-        elsif not user_json.has_key? "password"
-          logger.error "missing user password"
-        else
-          logger.info "success: added user"
-        end
-      rescue
-        logger.error "could not parse json"
-      end
+      logger.info "received"
+      user_json = decode_raw(params.keys[0])
+      logger.info user_json
+      u = User.new
+      u.login = user_json['name']
+      u.email = user_json['name']
+      pass = (0...8).map{65.+(rand(26)).chr}.join
+      u.password = pass
+      u.password_confirmation = pass
+      u.save
+      
+      UserMailer.welcome_email(user_json['name'], pass).deliver
     else
-      logger.error "failure: expected post"
+      raise "failure: expected post"
     end    
     render :text => "Ok"
   end

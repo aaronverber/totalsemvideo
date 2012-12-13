@@ -18,8 +18,8 @@ group :production do
   gem 'pg'
 end
 
-#gem 'authlogic'
-gem 'authlogic', :git => 'git@github.com:james2m/authlogic.git', :branch => 'fix-migrations'
+gem 'authlogic'
+#gem 'authlogic', :git => 'git@github.com:james2m/authlogic.git', :branch => 'fix-migrations'
 gem 'minitest'
 gem 'useragent'
 
